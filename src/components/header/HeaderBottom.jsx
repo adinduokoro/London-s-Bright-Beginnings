@@ -5,7 +5,6 @@ const HeaderBottom = () => {
   return (
     <nav className="headerBottom__nav">
       <ul className="headerBottom__navList" id="navMenu">
-        
         <NavLink to="/">
           <li className="headerBottom__navItem">HOME</li>
         </NavLink>
@@ -25,7 +24,6 @@ const HeaderBottom = () => {
         <NavLink to="/contact">
           <li className="headerBottom__navItem">CONTACT</li>
         </NavLink>
-
       </ul>
     </nav>
   );
