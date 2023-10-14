@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from '../../assets/Badge.png'
+import Badge from "../../assets/Badge.png";
 
 const Welcome = () => {
   return (
@@ -7,7 +7,14 @@ const Welcome = () => {
       <div className="welcome">
         <div className="welcome__left">
           <div className="welcome__leftTop">
-            <h1 className="welcome__businessName">London's Bright Beginnings</h1>
+            <h1 className="welcome__businessName">
+              London's Bright Beginnings
+            </h1>
+            <div className="welcome__star1">
+              
+            </div>
+            <div className="welcome__star2"></div>
+            <div className="welcome__star3"></div>
           </div>
           <div className="welcome__leftBottom">
             <div className="welcome__leftBottomLeft">
@@ -28,7 +35,7 @@ const Welcome = () => {
               </span>
             </div>
             <div className="welcome__leftBottomRight">
-              <img src={Badge} alt=""/>
+              <img src={Badge} alt="" />
               <span className="badgeVersion">1</span>
             </div>
           </div>

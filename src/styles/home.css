@@ -99,6 +99,10 @@
   line-height: 125%;
 }
 
+.welcome__star1{}
+.welcome__star2{}
+.welcome__star3{}
+
 .welcome__leftBottom {
   display: flex;
   gap: 1.5rem;
