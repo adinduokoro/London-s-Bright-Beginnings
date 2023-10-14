@@ -8,6 +8,11 @@ const Home = () => {
     <div>
       <Hero />
       <Welcome />
+      {/* Programs */}
+      {/* Cards */}
+      {/* Offer */}
+      {/* Testimonials */}
+      {/* Google Maps */}
     </div>
   );
 };
