@@ -1,0 +1,86 @@
+/* HEADER TOP */
+.header__Top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5.59375rem;
+  height: 11rem;
+}
+
+.header__Logo{
+  width: 10.625rem;
+  height: 10.625rem;
+}
+
+.header__Logo img{
+  height: 100%;
+}
+
+.header__Info{
+  width: 23.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.header__Quote{
+  width: 19.1875rem;
+  color: var(--colorPink);
+  text-align: right;
+  font-size: var(--title-font-size);
+  font-weight: var(--font-normal);
+  line-height: 127.273%;
+  padding-bottom: 0.63rem;
+}
+
+.header__Contact{
+  color: var(--colorBlue);
+  text-align: right;
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-bold);
+  line-height: 125%;
+}
+
+.header__Contact a{
+  color: var(--colorBlue);
+}
+
+
+/* NAVIGATION */
+.headerBottom__nav{
+  height: 3.125rem;
+}
+
+.headerBottom__navList{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  background-color: var(--colorBlue);
+}
+
+.headerBottom__nav li{
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-bold);
+  color: var(--colorWhite);
+  transition: all .5s;
+}
+
+.headerBottom__nav li:hover{
+  background-color: var(--colorPink);
+}
+
+#navMenu .active{
+  background-color: var(--colorPink);
+}
+
+
+
+
+
+
+
+
