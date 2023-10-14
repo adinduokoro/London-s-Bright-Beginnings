@@ -1,4 +1,8 @@
 /* HERO */
+.sectionMedium {
+  margin-bottom: 1.56rem;
+}
+
 .hero__slideshow {
   height: 28.125rem;
   position: relative;
@@ -53,4 +57,70 @@
   line-height: 142.857%;
   letter-spacing: 0.00625rem;
   white-space: nowrap;
+}
+
+/* WELCOME */
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem;
+  width: 53.875rem;
+  height: 18.625rem;
+  margin: 0 auto;
+}
+
+.welcome__left {
+  display: flex;
+  flex-direction: column;
+  width: 20.625rem;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 1.5625rem;
+  border: 2px solid green;
+}
+
+.welcome__leftTop {
+  width: 20.625rem;
+  height: 8.3125rem;
+  border-radius: 0.3125rem;
+  background: var(--colorBlue);
+}
+
+.welcome__leftBottom{
+  
+}
+
+.welcome__right {
+  display: flex;
+  padding: 2.125rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.welcome__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.welcome__title {
+  color: var(--primaryColorBlue);
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-bold);
+  line-height: 125%;
+}
+
+.welcome__text {
+  color: var(--darkText);
+  text-align: center;
+  font-size: var(--body-large);
+  line-height: 150%;
+  letter-spacing: 0.03125rem;
+  width: 28.0625rem;
+  height: 10.5rem;
 }
