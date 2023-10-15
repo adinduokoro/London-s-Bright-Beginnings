@@ -11,7 +11,7 @@ const Welcome = () => {
               London's Bright Beginnings
             </h1>
             <div className="welcome__star1">
-              
+
             </div>
             <div className="welcome__star2"></div>
             <div className="welcome__star3"></div>
@@ -55,6 +55,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+      <hr className="welcome__line" />
     </div>
   );
 };
