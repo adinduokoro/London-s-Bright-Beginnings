@@ -207,7 +207,14 @@
 }
 
 /* PROGRAM CARDS */
-.programs__cardContainer{}
+.program{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programs__cardContainer{
+  
+}
 .programs__cardInfo{}
 .programs__cardInfo span{}
 .programs__cardInfo h1{}
