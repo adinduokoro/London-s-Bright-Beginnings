@@ -3,7 +3,7 @@ import Slide1 from "../../assets/Slide1.jpg";
 
 const Hero = () => {
   return (
-    <div className="sectionMedium">
+    <div className="section__Medium">
       <div className="hero__slideshow">
         <img src={Slide1} alt="" />
         <div className="hero__bannerCta">
