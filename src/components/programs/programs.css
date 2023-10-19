@@ -1,0 +1,72 @@
+/* PROGRAM CARDS */
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs__cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.programs__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 3.19rem 1.62rem 3.19rem 1.5625rem;
+}
+
+.programs__cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+}
+
+.programs__cardHeader span {
+  color: var(--darkText);
+  font-size: var(--title-font-size);
+  font-weight: var(--font-medium);
+  line-height: 127.273%;
+}
+
+.programs__cardHeader h1 {
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-bold);
+  line-height: 125%;
+  white-space: nowrap;
+}
+
+.programs__cardHeader .cardLine {
+  max-width: 11rem;
+  height: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    var(--colorBlue) 0%,
+    var(--colorPink) 100%
+  );
+}
+
+.programs__cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.programs__cardInfo p {
+  color: var(--lightText);
+  font-size: var(--body-large);
+  line-height: 150%;
+  letter-spacing: 0.03125rem;
+}
+
+.programs__cardInfo a {
+  color: var(--primaryColorBlue);
+  font-size: var(--body-large);
+  font-weight: var(--font-medium);
+  line-height: 150%;
+  letter-spacing: 0.03125rem;
+  text-decoration-line: underline;
+}

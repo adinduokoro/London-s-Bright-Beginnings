@@ -1,0 +1,146 @@
+/* WELCOME */
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem;
+  height: 18.625rem;
+  margin: 0 1.5625rem;
+}
+
+.welcome__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 1.5625rem;
+}
+
+.welcome__leftTop {
+  width: 20.625rem;
+  height: 8.3125rem;
+  border-radius: 0.3125rem;
+  background: var(--colorBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__businessName {
+  width: 14.8125rem;
+  height: 5.3125rem;
+  color: var(--colorWhite);
+  text-align: center;
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-bold);
+  line-height: 125%;
+}
+
+.welcome__star1 {
+}
+.welcome__star2 {
+}
+.welcome__star3 {
+}
+
+.welcome__leftBottom {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome__leftBottomLeft {
+  border-radius: 0.3125rem;
+  background: var(--pinkPrimaryContainer);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.5625rem;
+  padding: 0rem 0.9375rem 2.625rem 1rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.28125rem;
+  height: 8.75rem;
+}
+
+.welcome__message {
+  color: var(--pinkOnPrimaryContainer);
+  text-align: center;
+  font-size: var(--title-font-size);
+  font-weight: var(--font-medium);
+  line-height: 127.273%;
+}
+
+.welcome__leftBottomRight {
+  position: relative;
+  display: flex;
+  padding: 0.8125rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+  background: var(--colorYellow);
+  width: 9.5rem;
+  height: 8.71591rem;
+}
+
+.welcome__leftBottomRight img {
+  width: 6rem;
+  height: 7.09094rem;
+  flex-shrink: 0;
+}
+
+.badgeVersion {
+  position: absolute;
+  display: flex;
+  width: 0.43638rem;
+  height: 0.81819rem;
+  justify-content: flex-end;
+  top: 50%;
+  color: #111111;
+  text-align: center;
+  font-size: var(--label-font-size);
+  font-weight: var(--font-bold);
+}
+
+.welcome__right {
+  display: flex;
+  padding: 2.125rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.welcome__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  max-width: 28.0625rem;
+}
+
+.welcome__title {
+  color: var(--primaryColorBlue);
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-bold);
+  line-height: 125%;
+}
+
+.welcome__text {
+  color: var(--darkText);
+  text-align: center;
+  font-size: var(--body-large);
+  line-height: 150%;
+  letter-spacing: 0.03125rem;
+}
+
+.welcome__line {
+  margin: 3.12rem auto 0;
+  width: 95%;
+  height: 0.125rem;
+  background: #eee;
+}

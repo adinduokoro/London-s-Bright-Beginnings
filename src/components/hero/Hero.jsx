@@ -1,5 +1,6 @@
 import React from "react";
 import Slide1 from "../../assets/Slide1.jpg";
+import "./hero.css"
 
 const Hero = () => {
   return (

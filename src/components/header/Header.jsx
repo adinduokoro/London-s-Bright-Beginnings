@@ -1,6 +1,7 @@
 import React from 'react'
 import TopHeader from './HeaderTop'
 import HeaderBottom from './HeaderBottom'
+import "./header.css"
 
 const Header = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import Hero from "../components/hero/Hero";
-import "../styles/home.css";
 import Welcome from "../components/welcome/Welcome";
 import Programs from "../components/programs/Programs";
 import Education from "../components/education/Education";
+import Offer from "../components/offer/Offer";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Welcome />
       <Programs />
       <Education />
-      {/* Offer */}
+      <Offer />
       {/* Testimonials */}
       {/* Google Maps */}
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { courses } from "./data";
+import "./education.css"
 
 const Education = () => {
   return (
@@ -9,7 +10,7 @@ const Education = () => {
           return (
             <div className="education__card" key={index}>
               <div className="education__overlay"></div>
-              <img src={course.image} />
+              <img src={course.image} alt=""/>
               <div className="education__cardInfo">
                 <h2>{course.title}</h2>
                 <p>{course.text}</p>

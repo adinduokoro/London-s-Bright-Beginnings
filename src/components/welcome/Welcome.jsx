@@ -1,5 +1,6 @@
 import React from "react";
 import Badge from "../../assets/Badge.png";
+import "./welcome.css"
 
 const Welcome = () => {
   return (
