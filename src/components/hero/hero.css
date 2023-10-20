@@ -27,6 +27,7 @@
   gap: 0.875rem;
   width: 27.875rem;
   height: 10.9375rem;
+  display: none;
 }
 
 .hero__ctaQuote {
