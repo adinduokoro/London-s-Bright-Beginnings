@@ -2,6 +2,7 @@ import React from "react";
 import Slide1 from "../../assets/Slide1.jpg";
 import "./hero.css"
 import Slider from "./Slider";
+import { slides } from "./data"
 
 const Hero = () => {
   return (
@@ -10,8 +11,7 @@ const Hero = () => {
 
 
 
-        <img src={Slide1} alt="" />
-
+        <Slider slides={slides} />
 
 
         <div className="hero__bannerCta">
