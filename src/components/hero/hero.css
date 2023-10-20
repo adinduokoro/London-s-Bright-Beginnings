@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.hero__slider{
+.hero__slider {
   overflow: hidden;
   height: 100%;
   position: relative;
@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.hero__slider #right-arrow{
+.hero__slider #right-arrow {
   z-index: 5;
   position: absolute;
   color: var(--colorWhite);
@@ -28,18 +28,18 @@
   user-select: none;
 }
 
-.hero__slider .slide{
+.hero__slider .slide {
   opacity: 0;
-  transition-duration: 1s ease;
+  transition-duration: 1.25s ease;
 }
 
-.hero__slider .slide.active{
+.hero__slider .slide.active {
   opacity: 1;
-  transition-duration: 1s;
+  transition-duration: 1.25s;
   transform: scale(1.08);
 }
 
-.hero__slider .image-count{
+.hero__slider .image-count {
   position: absolute;
   z-index: 5;
   bottom: 0;
@@ -48,7 +48,6 @@
   color: var(--colorWhite);
   font-size: var(--body-large);
   user-select: none;
-
 }
 
 .hero__bannerCta {

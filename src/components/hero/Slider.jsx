@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent(current === length - 1 ? 0 : current + 1);
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [current]);
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
