@@ -6,10 +6,10 @@ import { offers } from "./data";
 const Offers = () => {
   return (
     <div className="section">
-      {offers.map((offer, index) => {
-        return (
-          <div className="card" key={index}>
-            <div className="offer">
+      <div className="card">
+        {offers.map((offer, index) => {
+          return (
+            <div className="offer" key={index}>
               <div className="offer__left">
                 <img src={offer.image} alt="" />
                 <div className="offer__header">
@@ -47,9 +47,9 @@ const Offers = () => {
                 </div>
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };
