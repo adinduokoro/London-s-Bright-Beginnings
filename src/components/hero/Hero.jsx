@@ -1,18 +1,13 @@
 import React from "react";
-import Slide1 from "../../assets/Slide1.jpg";
-import "./hero.css"
+import "./hero.css";
 import Slider from "./Slider";
-import { slides } from "./data"
+import { slides } from "./data";
 
 const Hero = () => {
   return (
     <div className="section__Medium">
       <div className="hero__slideshow">
-
-
-
         <Slider slides={slides} />
-
 
         <div className="hero__bannerCta">
           <span className="hero__ctaQuote">
@@ -23,9 +18,6 @@ const Hero = () => {
             <span className="hero__ctaButtonTitle">CONTACT US</span>
           </div>
         </div>
-
-
-        
       </div>
     </div>
   );
