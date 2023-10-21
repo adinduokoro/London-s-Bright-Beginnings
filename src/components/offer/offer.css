@@ -1,13 +1,16 @@
+/* LEFT */
 .offer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 21.3rem;
-  gap: 3.75rem;
+  gap: 3rem;
 }
 
 .offer__left {
+  border: 2px solid green;
   position: relative;
+  height: 15rem;
 }
 
 .offer__left img {
@@ -73,12 +76,58 @@
 }
 
 .offer__left p {
-  width: 11.25rem;
-  height: 3.875rem;
+  width: 15rem;
   padding: 0rem 0.75rem 0.125rem 0rem;
   color: var(--lightText);
   font-size: var(--label-font-size);
   font-weight: var(--font-medium);
   line-height: 142.857%;
   letter-spacing: 0.00625rem;
+}
+
+/* RIGHT */
+.offer__right {
+  display: flex;
+  border: 2px solid green;
+  align-items: end;
+  height: 15rem;
+  width: 24rem;
+}
+
+.offer__info {
+  width: 20.4375rem;
+}
+
+.offer__info h4 {
+  color: var(--darkText);
+  font-size: var(--title-font-size);
+  font-weight: var(--font-semi-bold);
+  line-height: 127.273%;
+  padding-right: 4rem;
+  margin-bottom: 1.88rem;
+}
+
+.offer__bulletPoint,
+.offer__bulletAnchor {
+  display: flex;
+  gap: 0.62rem;
+  align-items: center;
+  height: 1.25rem;
+  margin-bottom: 0.62rem;
+}
+
+.offer__bulletPoint p {
+  color: var(--lightText);
+  font-size: var(--label-font-size);
+  font-weight: var(--font-medium);
+  letter-spacing: 0.00625rem;
+}
+
+.offer__bulletAnchor a {
+  color: var(--darkText);
+  font-size: var(--label-font-size);
+  font-weight: var(--font-medium);
+  line-height: 142.857%;
+  letter-spacing: 0.00625rem;
+  text-decoration-line: underline;
 }
