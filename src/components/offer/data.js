@@ -17,7 +17,7 @@ export const offers = [
       "Enrollment flexibility with convenient hours",
       "Stringent safety guidelines, staff CPR/First Aid certified",
     ],
-    linkText: "Discover more about our offerings",
+    linkText: "Discover more about our staff",
     link: "/",
   },
   {
@@ -42,14 +42,14 @@ export const offers = [
     textOne: "LICENSED &",
     textTwo: "CERTIFIED",
     paragraph:
-      "Our learning style stands out, offering a truly distinctive experience...",
-    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+      "Exceptional learning in a caring space, ensuring parents' peace of mind...",
+    headerOne: "WHY CHOOSE US FOR LEARNING",
     bulletPoints: [
-      "Tailored curriculum for each age group",
-      "Enrollment flexibility with convenient hours",
-      "Stringent safety guidelines, staff CPR/First Aid certified",
+      "Customized Learning Paths for Different Age Groups",
+      "Flexible Enrollment with Hours That Suit You Best",
+      "We Prioritize Safety: Team CPR/First Aid Certified",
     ],
-    linkText: "Discover more about our offerings",
+    linkText: "Discover more about us",
     link: "/",
   },
   {
@@ -58,14 +58,14 @@ export const offers = [
     textOne: "MEALS &",
     textTwo: "SNACKS",
     paragraph:
-      "Our learning style stands out, offering a truly distinctive experience...",
-    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+      "Smart Snacking, Smarter Learning for Kids...",
+    headerOne: "DELICIOUS NUTRITION FOR YOUR TINY TOT",
     bulletPoints: [
-      "Tailored curriculum for each age group",
-      "Enrollment flexibility with convenient hours",
-      "Stringent safety guidelines, staff CPR/First Aid certified",
+      "Breakfast, lunch & snacks included",
+      "Delicious and Nutrient-Packed",
+      "Simple meal plans",
     ],
-    linkText: "Discover more about our offerings",
+    linkText: "Discover more about Nutrition & Meals",
     link: "/",
   },
 ];
