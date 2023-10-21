@@ -3,7 +3,7 @@ import Hero from "../components/hero/Hero";
 import Welcome from "../components/welcome/Welcome";
 import Programs from "../components/programs/Programs";
 import Education from "../components/education/Education";
-import Offer from "../components/offer/Offer";
+import Offers from "../components/offer/Offers";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Welcome />
       <Programs />
       <Education />
-      <Offer />
+      <Offers />
       {/* Testimonials */}
       {/* Google Maps */}
     </div>

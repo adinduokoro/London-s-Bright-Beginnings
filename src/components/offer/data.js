@@ -3,7 +3,7 @@ import Money from "../../assets/MoneySVG.svg"
 import Badge from "../../assets/BadgeSVG.svg"
 import Apple from "../../assets/AppleSVG.svg"
 
-export const offer = [
+export const offers = [
   {
     image: Book,
     label: "Highly-Qualified",
@@ -12,7 +12,7 @@ export const offer = [
     paragraph:
       "Our learning style stands out, offering a truly distinctive experience...",
     headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
-    bulletPoint: [
+    bulletPoints: [
       "Tailored curriculum for each age group",
       "Enrollment flexibility with convenient hours",
       "Stringent safety guidelines, staff CPR/First Aid certified",
@@ -22,29 +22,29 @@ export const offer = [
   },
   {
     image: Money,
-    label: "Highly-Qualified",
-    textOne: "TEACHER &",
-    textTwo: "STAFF",
+    label: "Quality Care &",
+    textOne: "COMPETITIVE",
+    textTwo: "RATES",
     paragraph:
-      "Our learning style stands out, offering a truly distinctive experience...",
-    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
-    bulletPoint: [
-      "Tailored curriculum for each age group",
-      "Enrollment flexibility with convenient hours",
-      "Stringent safety guidelines, staff CPR/First Aid certified",
+      "Providing unmatched child care solutions with exceptional value...",
+    headerOne: "AFFORDABLE TUITION WITH EASY PAYMENT PLANS",
+    bulletPoints: [
+      "Budget-Friendly Fees, Seamless Payment Solutions",
+      "Sibling Savings for Multiple Children",
+      "Comprehensive Tuition Packages, Covering All Fees",
     ],
-    linkText: "Discover more about our offerings",
+    linkText: "Discover more about tuition",
     link: "/",
   },
   {
     image: Badge,
-    label: "Highly-Qualified",
-    textOne: "TEACHER &",
-    textTwo: "STAFF",
+    label: "State",
+    textOne: "LICENSED &",
+    textTwo: "CERTIFIED",
     paragraph:
       "Our learning style stands out, offering a truly distinctive experience...",
     headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
-    bulletPoint: [
+    bulletPoints: [
       "Tailored curriculum for each age group",
       "Enrollment flexibility with convenient hours",
       "Stringent safety guidelines, staff CPR/First Aid certified",
@@ -54,13 +54,13 @@ export const offer = [
   },
   {
     image: Apple,
-    label: "Highly-Qualified",
-    textOne: "TEACHER &",
-    textTwo: "STAFF",
+    label: "Nutritious",
+    textOne: "MEALS &",
+    textTwo: "SNACKS",
     paragraph:
       "Our learning style stands out, offering a truly distinctive experience...",
     headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
-    bulletPoint: [
+    bulletPoints: [
       "Tailored curriculum for each age group",
       "Enrollment flexibility with convenient hours",
       "Stringent safety guidelines, staff CPR/First Aid certified",

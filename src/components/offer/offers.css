@@ -5,6 +5,7 @@
   align-items: center;
   height: 21.3rem;
   gap: 3rem;
+  border: 5px solid green;
 }
 
 .offer__left {
