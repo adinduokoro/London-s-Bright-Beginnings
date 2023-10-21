@@ -1,17 +1,71 @@
-export const courses = [
+import Book from "../../assets/BookSVG.svg";
+import Money from "../../assets/MoneySVG.svg"
+import Badge from "../../assets/BadgeSVG.svg"
+import Apple from "../../assets/AppleSVG.svg"
+
+export const offer = [
   {
-    title: "Curriculum",
-    text: "Embracing the power of exploration and discovery, our preschool program is designed to nurture children's confidence, foster creativity, and instill lifelong critical thinking skills.",
-    path: "/",
+    image: Book,
+    label: "Highly-Qualified",
+    textOne: "TEACHER &",
+    textTwo: "STAFF",
+    paragraph:
+      "Our learning style stands out, offering a truly distinctive experience...",
+    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+    bulletPoint: [
+      "Tailored curriculum for each age group",
+      "Enrollment flexibility with convenient hours",
+      "Stringent safety guidelines, staff CPR/First Aid certified",
+    ],
+    linkText: "Discover more about our offerings",
+    link: "/",
   },
   {
-    title: "Programs",
-    text: "In our programs, we foster children's creative expression, ignite their imaginations, and fuel their     curiosity—all while recognizing and highlighting the unique individuality of each child in these realms.",
-    path: "/",
+    image: Money,
+    label: "Highly-Qualified",
+    textOne: "TEACHER &",
+    textTwo: "STAFF",
+    paragraph:
+      "Our learning style stands out, offering a truly distinctive experience...",
+    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+    bulletPoint: [
+      "Tailored curriculum for each age group",
+      "Enrollment flexibility with convenient hours",
+      "Stringent safety guidelines, staff CPR/First Aid certified",
+    ],
+    linkText: "Discover more about our offerings",
+    link: "/",
   },
   {
-    title: "Enrollment",
-    text: "Discover our educational space through a personalized tour, where you can meet our dedicated staff and explore our engaging classrooms. Join our waiting list or inquire about enrollment ",
-    path: "/",
+    image: Badge,
+    label: "Highly-Qualified",
+    textOne: "TEACHER &",
+    textTwo: "STAFF",
+    paragraph:
+      "Our learning style stands out, offering a truly distinctive experience...",
+    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+    bulletPoint: [
+      "Tailored curriculum for each age group",
+      "Enrollment flexibility with convenient hours",
+      "Stringent safety guidelines, staff CPR/First Aid certified",
+    ],
+    linkText: "Discover more about our offerings",
+    link: "/",
   },
-]
+  {
+    image: Apple,
+    label: "Highly-Qualified",
+    textOne: "TEACHER &",
+    textTwo: "STAFF",
+    paragraph:
+      "Our learning style stands out, offering a truly distinctive experience...",
+    headerOne: "EMPOWERING KIDS TO REACH THEIR FULL POTENTIAL",
+    bulletPoint: [
+      "Tailored curriculum for each age group",
+      "Enrollment flexibility with convenient hours",
+      "Stringent safety guidelines, staff CPR/First Aid certified",
+    ],
+    linkText: "Discover more about our offerings",
+    link: "/",
+  },
+];
