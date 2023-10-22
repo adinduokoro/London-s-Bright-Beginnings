@@ -31,12 +31,15 @@
   position: absolute;
   top: 0;
   right: 0;
+  user-select: none;
 }
 
 .offer__header {
   margin-top: 1.44rem;
   margin-right: 3.31rem;
   margin-bottom: 1.75rem;
+  user-select: none;
+
 }
 
 .offer__left .offer__span {
@@ -56,7 +59,7 @@
 .offer__left .offer__h3 {
   display: flex;
   padding: 0.8125rem 3.375rem 0.8125rem 0.5625rem;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   gap: 0.625rem;
   background: linear-gradient(90deg, #009bdb 0%, #b90065 100%);
@@ -72,7 +75,7 @@
 .offer__left .offer__h5 {
   display: flex;
   padding: 0.8125rem 1.1875rem 0.8125rem 0.5625rem;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 0.625rem;
 }
 
@@ -86,7 +89,7 @@
 
 .offer__left .offer__p {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .offer__left p {
@@ -102,7 +105,7 @@
 /* RIGHT */
 .offer__right {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   height: 15rem;
 }
 

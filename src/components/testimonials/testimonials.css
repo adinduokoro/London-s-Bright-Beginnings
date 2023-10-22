@@ -1,0 +1,45 @@
+.section__full {
+  height: 21.3rem;
+  position: relative;
+  display: flex;
+  background: url(../../assets/Chalkboard.jpg);
+}
+
+.section {
+  border: 2px solid green;
+  width: 100%;
+  position: relative;
+}
+
+.testimonials__family {
+  position: absolute;
+  bottom: 0;
+  right: 2.5rem;
+  z-index: 5;
+}
+
+.testimonials__cap {
+  position: absolute;
+  top: 1rem;
+  right: 12.75rem;
+  width: 8.09738rem;
+  height: 5.15906rem;
+  transform: rotate(-29.694deg);
+  flex-shrink: 0;
+}
+
+.testimonials__cards{
+  border: 2px solid green;
+  margin: 5rem;
+  width: 40%;
+  color: white;
+
+}
+
+.testimonials__card{
+
+}
+
+.testimonials__card h3{
+  font-family: "KGTenThousandReasonsAlt";
+}
