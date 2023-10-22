@@ -29,8 +29,7 @@
 }
 
 .hero__slider .slide {
-  opacity: 0;
-  transition-duration: 1.25s ease;
+  opacity: .75;
 }
 
 .hero__slider .slide.active {

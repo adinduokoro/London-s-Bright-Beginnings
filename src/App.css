@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Playpen+Sans:wght@200;400;500;600;700&display=swap');
 
 /* Constants */
 * {
@@ -36,6 +37,7 @@
   --body-large: 1rem;
 
   /* FONT WEIGHT */
+  --font-light: 200;
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
