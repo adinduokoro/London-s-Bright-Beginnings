@@ -3,6 +3,7 @@ import "./testimonials.css";
 import FamilyPhoto from "../../assets/family-photo.png";
 import GraduationCap from "../../assets/graduation-cap.png";
 import Chalk from "../../assets/chalk.png";
+import { testimonials } from "./data";
 
 const Testimonials = () => {
   return (
@@ -15,6 +16,7 @@ const Testimonials = () => {
             <img src={Chalk} alt="" />
             <h3>parent testimonials</h3>
           </div>
+
           <div className="testimonials__cardInfo">
             <p>
               "Highly recommended! Wonderful teachers and experienced staff make
