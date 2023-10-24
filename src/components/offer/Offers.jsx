@@ -10,7 +10,7 @@ const Offers = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 10000);
+    }, 6000);
     return () => clearInterval(interval);
   }, [current]);
 
