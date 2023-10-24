@@ -30,7 +30,7 @@
 
 .testimonials__cards{
   margin: 4rem 0 2rem 3rem ;
-  width: 55%;
+  width: 60%;
   color: white;
   font-family: "Playpen Sans", sans-serif;
 
@@ -54,7 +54,6 @@
   text-shadow: 0px 0px 18px #FFF;
 }
 .testimonials__slider{
-  height: 6.75rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -65,7 +64,7 @@
   display: flex;
   flex-direction: column;
   padding-left: 2.5rem;
-  gap: .5rem;
+  gap: .25rem;
   opacity: 0;
 }
 
