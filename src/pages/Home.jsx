@@ -5,6 +5,7 @@ import Programs from "../components/programs/Programs";
 import Education from "../components/education/Education";
 import Offers from "../components/offer/Offers";
 import Testimonials from "../components/testimonials/Testimonials";
+import Location from '../components/location/Location'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Education />
       <Offers />
       <Testimonials />
-      {/* Google Maps */}
+      <Location />
     </div>
   );
 };

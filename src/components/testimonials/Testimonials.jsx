@@ -17,7 +17,7 @@ const Testimonials = () => {
   }, [current]);
 
   return (
-    <div className="section__full">
+    <div className="section__full testimonials__bg">
       <div className="section">
         <img className="testimonials__family" src={FamilyPhoto} alt="" />
         <img className="testimonials__cap" src={GraduationCap} alt="" />
@@ -39,9 +39,7 @@ const Testimonials = () => {
                 >
                   {index === current && (
                     <>
-                      <p>
-                        {review.response}
-                      </p>
+                      <p>{review.response}</p>
                       <h6>-{review.customer}</h6>
                     </>
                   )}
