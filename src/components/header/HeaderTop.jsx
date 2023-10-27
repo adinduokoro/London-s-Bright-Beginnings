@@ -1,12 +1,15 @@
 import React from "react";
 import Logo from "../../assets/Logo.svg";
+import { Link } from "react-router-dom";
 
 const HeaderTop = () => {
   return (
     <div className="section">
       <div className="header__Top">
         <div className="header__Logo">
-          <img src={Logo} alt="London's Bright Beginnings" />
+          <Link to="/">
+            <img src={Logo} alt="London's Bright Beginnings" />
+          </Link>
         </div>
         <div className="header__Info">
           <span className="header__Quote">
