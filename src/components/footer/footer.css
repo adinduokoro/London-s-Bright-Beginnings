@@ -21,7 +21,7 @@
 .footer__logo p {
   color: var(--colorWhite);
   text-align: center;
-  font-size: 0.75rem;
+  font-size: var(--label-font-size);
   line-height: 133.333%;
 }
 
@@ -34,9 +34,7 @@
 
 .footer__siteMap h6 {
   color: var(--colorWhite);
-  font-size: 1.3125rem;
-  font-weight: var(--font-semi-bold);
-  line-height: 76.19%;
+  font-weight: var(--font-semi-bold) !important;
 }
 
 .footer__siteMap ul {
@@ -48,9 +46,7 @@
 
 .footer__siteMap .links {
   color: var(--colorWhite);
-  font-size: 0.75rem;
-  font-weight: var(--font-normal);
-  line-height: 133.333%;
+
 }
 
 .footer__contact {
@@ -63,10 +59,13 @@
 
 .footer__contact h6 {
   color: #fff;
-  font-size: 1.3125rem;
   font-weight: var(--font-semi-bold);
-  line-height: 76.19%;
 }
+
+
+
+
+
 
 .footer__contact ul {
   gap: 0.3125rem;

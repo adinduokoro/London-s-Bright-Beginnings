@@ -18,12 +18,12 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer__siteMap">
-            <h6>SITEMAP</h6>
+            <h6 className="title-text">SITEMAP</h6>
             <ul>
               {footerData.map((link, index) => {
                 return (
                   <li key={index}>
-                    <Link to={link.path} className="links">
+                    <Link to={link.path} className="label-text links">
                       {link.name}
                     </Link>
                   </li>
@@ -32,7 +32,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer__contact">
-            <h6>CONTACT</h6>
+            <h6 className="title-text">CONTACT</h6>
             <ul>
               {footerContact.map((info, index) => {
                 return (
