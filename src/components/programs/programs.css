@@ -26,15 +26,11 @@
 
 .programs__cardHeader span {
   color: var(--darkText);
-  font-size: var(--title-font-size);
-  font-weight: var(--font-medium);
-  line-height: 127.273%;
+  font-weight: var(--font-medium) !important;
 }
 
 .programs__cardHeader h1 {
-  font-size: var(--headline-font-size);
-  font-weight: var(--font-bold);
-  line-height: 125%;
+  font-weight: var(--font-bold) !important;
   white-space: nowrap;
 }
 
@@ -57,16 +53,10 @@
 
 .programs__cardInfo p {
   color: var(--lightText);
-  font-size: var(--body-large);
-  line-height: 150%;
-  letter-spacing: 0.03125rem;
 }
 
 .programs__cardInfo a {
   color: var(--primaryColorBlue);
-  font-size: var(--body-large);
-  font-weight: var(--font-medium);
-  line-height: 150%;
-  letter-spacing: 0.03125rem;
+  font-weight: var(--font-medium) !important;
   text-decoration-line: underline;
 }

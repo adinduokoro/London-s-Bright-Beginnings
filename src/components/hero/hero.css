@@ -67,9 +67,7 @@
 .hero__ctaQuote {
   color: var(--colorWhite);
   text-align: center;
-  font-size: var(--title-font-size);
-  font-weight: var(--font-bold);
-  line-height: 127.273%;
+  font-weight: var(--font-bold) !important;
 }
 
 .hero__ctaButton {
@@ -94,9 +92,6 @@
 .hero__ctaButtonTitle {
   color: var(--colorWhite);
   text-align: center;
-  font-size: var(--label-font-size);
-  font-weight: var(--font-bold);
-  line-height: 142.857%;
-  letter-spacing: 0.00625rem;
+  font-weight: var(--font-bold) !important;
   white-space: nowrap;
 }

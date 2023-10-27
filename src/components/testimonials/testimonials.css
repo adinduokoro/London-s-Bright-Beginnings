@@ -1,6 +1,5 @@
 .testimonials__bg{
   background: url(../../assets/Chalkboard.jpg);
-
 }
 
 .section__full {
@@ -57,6 +56,7 @@
   left: 2.5rem;
   text-shadow: 0px 0px 18px #FFF;
 }
+
 .testimonials__slider{
   overflow: hidden;
   display: flex;
@@ -90,7 +90,6 @@
 }
 
 .testimonials__cards p{
-  font-size: var(--body-large);
 }
 
 

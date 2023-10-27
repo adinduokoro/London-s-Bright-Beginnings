@@ -39,22 +39,13 @@
 
 .education__cardInfo h2 {
   color: var(--colorWhite);
-  font-size: var(--headline-font-size);
-  font-weight: var(--font-bold);
-  line-height: 125%;
+  font-weight: var(--font-bold) !important;
 }
 .education__cardInfo p {
   color: var(--colorWhite);
-  font-size: var(--body-large);
-  font-weight: var(--font-semi-bold);
-  line-height: 150%;
-  letter-spacing: 0.03125rem;
 }
 .education__cardInfo a {
   color: var(--colorWhite);
-  font-size: var(--body-large);
-  font-weight: var(--font-semi-bold);
-  line-height: 150%;
-  letter-spacing: 0.03125rem;
+  font-weight: var(--font-semi-bold) !important;
   text-decoration-line: underline;
 }

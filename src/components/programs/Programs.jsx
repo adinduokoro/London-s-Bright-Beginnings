@@ -10,13 +10,13 @@ const Programs = () => {
           <div className="programs__cardContainer" key={index}>
             <div className="programs__card">
               <div className="programs__cardHeader">
-                <span>Programs for</span>
-                <h1 style={{ color: program.color }}>{program.title}</h1>
+                <span className="title-text">Programs for</span>
+                <h1 className="head-text" style={{ color: program.color }}>{program.title}</h1>
                 <div className="cardLine"></div>
               </div>
               <div className="programs__cardInfo">
-                <p>{program.paragraph}</p>
-                <a href={program.path} style={{ color: program.color }}>READ MORE</a>
+                <p className="body-text">{program.paragraph}</p>
+                <a href={program.path} className="body-text" style={{ color: program.color }}>READ MORE</a>
               </div>
             </div>
           </div>

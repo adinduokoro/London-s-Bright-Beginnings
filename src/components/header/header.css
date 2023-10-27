@@ -34,6 +34,7 @@
 .header__Contact {
   color: var(--colorBlue);
   text-align: right;
+  font-weight: var(--font-bold) !important;
 }
 
 .header__Contact a {
@@ -58,12 +59,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-weight: var(--font-bold) !important;
   color: var(--colorWhite);
   transition: all 0.5s;
-  font-weight: var(--font-bold);
-  letter-spacing: 0.00625rem;
-  line-height: 142.857%;
-  font-size: var(--label-font-size);
 }
 
 .headerBottom__nav li:hover {

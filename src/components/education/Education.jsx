@@ -12,9 +12,9 @@ const Education = () => {
               <div className="education__overlay"></div>
               <img src={course.image} alt=""/>
               <div className="education__cardInfo">
-                <h2>{course.title}</h2>
-                <p>{course.text}</p>
-                <a href={course.path}>MORE</a>
+                <h2 className="head-text">{course.title}</h2>
+                <p className="body-text">{course.text}</p>
+                <a href={course.path} className="body-text">MORE</a>
               </div>
             </div>
           );

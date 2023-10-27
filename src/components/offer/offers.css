@@ -49,10 +49,7 @@
   margin: 0 auto;
   color: var(--lightText);
   text-align: center;
-  font-size: var(--label-font-size);
-  font-weight: var(--font-medium);
-  line-height: 142.857%;
-  letter-spacing: 0.00625rem;
+
 }
 
 .offer__left .offer__h3 {
@@ -66,7 +63,7 @@
 .offer__left h3 {
   color: var(--colorWhite);
   text-align: right;
-  font-size: 3.125rem;
+  font-size: var(--display-m-font-size);
   font-weight: var(--font-bold);
   line-height: 72%;
   white-space: nowrap;
@@ -81,9 +78,9 @@
 .offer__left h5 {
   color: var(--darkText);
   text-align: right;
-  font-size: 3.125rem;
+  font-size: var(--display-m-font-size);
   font-weight: var(--font-bold);
-  line-height: 2.25rem;
+  line-height: var(--line-height-headline);
 }
 
 .offer__left .offer__p {
@@ -95,10 +92,6 @@
   width: 15rem;
   padding: 0rem 0.75rem 0.125rem 0rem;
   color: var(--lightText);
-  font-size: var(--label-font-size);
-  font-weight: var(--font-medium);
-  line-height: 142.857%;
-  letter-spacing: 0.00625rem;
 }
 
 /* RIGHT */
@@ -114,9 +107,7 @@
 
 .offer__info h4 {
   color: var(--darkText);
-  font-size: var(--title-font-size);
-  font-weight: var(--font-semi-bold);
-  line-height: 127.273%;
+  font-weight: var(--font-semi-bold) !impo;
   margin-bottom: 1.88rem;
 }
 
@@ -131,16 +122,10 @@
 
 .offer__bulletPoint p {
   color: var(--lightText);
-  font-size: var(--label-font-size);
-  font-weight: var(--font-medium);
   letter-spacing: 0.00625rem;
 }
 
 .offer__bulletAnchor a {
   color: var(--darkText);
-  font-size: var(--label-font-size);
-  font-weight: var(--font-medium);
-  line-height: 142.857%;
-  letter-spacing: 0.00625rem;
   text-decoration-line: underline;
 }

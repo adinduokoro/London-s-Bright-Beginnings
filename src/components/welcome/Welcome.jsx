@@ -8,7 +8,7 @@ const Welcome = () => {
       <div className="welcome">
         <div className="welcome__left">
           <div className="welcome__leftTop">
-            <h1 className="welcome__businessName">
+            <h1 className="welcome__businessName head-text">
               London's Bright Beginnings
             </h1>
             <div className="welcome__star1">
@@ -31,20 +31,20 @@ const Welcome = () => {
                   fill="#DF1B7D"
                 />
               </svg>
-              <span className="welcome__message">
+              <span className="welcome__message title-text">
                 Message from Our Director
               </span>
             </div>
             <div className="welcome__leftBottomRight">
               <img src={Badge} alt="" />
-              <span className="badgeVersion">1</span>
+              <span className="badgeVersion label-text">1</span>
             </div>
           </div>
         </div>
         <div className="welcome__right">
           <div className="welcome__info">
-            <h1 className="welcome__title">WELCOME</h1>
-            <p className="welcome__text">
+            <h1 className="welcome__title head-text">WELCOME</h1>
+            <p className="welcome__text body-text">
               Discover London's Bright Beginnings, your trusted childcare choice
               in Baltimore, Maryland. We're dedicated to providing personalized
               educational experiences for children and families, fostering a

@@ -31,9 +31,7 @@
   height: 5.3125rem;
   color: var(--colorWhite);
   text-align: center;
-  font-size: var(--headline-font-size);
-  font-weight: var(--font-bold);
-  line-height: 125%;
+  font-weight: var(--font-bold) !important;
 }
 
 .welcome__star1 {
@@ -68,9 +66,7 @@
 .welcome__message {
   color: var(--pinkOnPrimaryContainer);
   text-align: center;
-  font-size: var(--title-font-size);
-  font-weight: var(--font-medium);
-  line-height: 127.273%;
+  font-weight: var(--font-medium) !important;
 }
 
 .welcome__leftBottomRight {
@@ -99,10 +95,10 @@
   height: 0.81819rem;
   justify-content: flex-end;
   top: 50%;
+  transform: translateX(-0.1rem);
   color: #111111;
   text-align: center;
-  font-size: var(--label-font-size);
-  font-weight: var(--font-bold);
+  font-weight: var(--font-bold) !important;
 }
 
 .welcome__right {
@@ -125,17 +121,13 @@
 
 .welcome__title {
   color: var(--primaryColorBlue);
-  font-size: var(--headline-font-size);
-  font-weight: var(--font-bold);
-  line-height: 125%;
+  font-weight: var(--font-bold) !important;
 }
 
 .welcome__text {
   color: var(--darkText);
   text-align: center;
-  font-size: var(--body-large);
-  line-height: 150%;
-  letter-spacing: 0.03125rem;
+
 }
 
 .welcome__line {

@@ -29,7 +29,7 @@ const Offers = () => {
                     <img src={offer.image} alt="" />
                     <div className="offer__header">
                       <div className="offer__span">
-                        <span>{offer.label}</span>
+                        <span className="label-text">{offer.label}</span>
                       </div>
                       <div className="offer__h3">
                         <h3>{offer.textOne}</h3>
@@ -39,25 +39,25 @@ const Offers = () => {
                       </div>
                     </div>
                     <div className="offer__p">
-                      <p>{offer.paragraph}</p>
+                      <p className="label-text">{offer.paragraph}</p>
                     </div>
                   </div>
 
                   <div className="offer__right">
                     <div className="offer__info">
-                      <h4>{offer.headerOne}</h4>
+                      <h4 className="title-text">{offer.headerOne}</h4>
                       {offer.bulletPoints.map((bulletPoint, index) => {
                         return (
                           <div className="offer__bulletPoint" key={index}>
                             <img src={Checkmark} alt="" />
-                            <p>{bulletPoint}</p>
+                            <p className="label-text">{bulletPoint}</p>
                           </div>
                         );
                       })}
 
                       <div className="offer__bulletAnchor">
                         <img src={Checkmark} alt="" />
-                        <a href={offer.link}>{offer.linkText}</a>
+                        <a href={offer.link} className="label-text">{offer.linkText}</a>
                       </div>
                     </div>
                   </div>

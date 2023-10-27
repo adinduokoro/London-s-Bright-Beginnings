@@ -11,13 +11,13 @@ const Hero = () => {
         <Slider slides={slides} />
 
         <div className="hero__bannerCta">
-          <span className="hero__ctaQuote">
+          <span className="hero__ctaQuote title-text">
             AT THE HEART OF OUR COMMITMENT IS YOUR PEACE OF MIND. WATCH YOUR
             CHILD THRIVE IN A SAFE ENRICHING ENVIRONMENT
           </span>
           <Link to="contact">
             <div className="hero__ctaButton">
-              <span className="hero__ctaButtonTitle">CONTACT US</span>
+              <span className="hero__ctaButtonTitle label-text">CONTACT US</span>
             </div>
           </Link>
         </div>
