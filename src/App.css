@@ -29,30 +29,72 @@
   /* FONT */
   --body-font: "Dosis", sans-serif;
 
-  /* FONT SIZES */
-  --display-font-size: 3.5625rem;
-  --headline-font-size: 2rem;
-  --title-font-size: 1.375rem;
-  --label-font-size: 0.875rem;
-  --body-large: 1rem;
-
-  /* FONT WEIGHT */
+  /* FONT WEIGHT FOR LARGE*/
   --font-light: 200;
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
   --font-bold: 700;
 
-  /* MARGIN */
+  /* FONT SIZES FOR LARGE*/
+  --display-font-size: 3.5625rem;
+  --headline-font-size: 2rem;
+  --title-font-size: 1.375rem;
+  --label-font-size: 0.875rem;
+  --body-large: 1rem;
+  /* Miscellaneous Font Size */
+  --display-m-font-size: 3.125rem;
+  
 
-  /* Z INDEX */
+  /* LINE HEIGHT FOR LARGE*/
+  --line-height-display: 4rem;
+  --line-height-headline: 2.5rem;
+  --line-height-title: 1.75rem;
+  --line-height-label: 1.25rem;
+  --line-height-body: 1.5rem;
+
+  /* LETTER SPACING FOR LARGE */
+  --letter-spacing-display: -0.01563rem;
+  --letter-spacing-label: 0.00625rem;
+  --letter-spacing-body: 0.03125rem;
 }
-
-
 
 body {
   font-family: var(--body-font);
   overflow-x: hidden;
+}
+
+.d-text{
+  font-size: var(--display-font-size);
+  font-weight: var(--font-normal);
+  line-height: var(--line-height-display);
+  letter-spacing: var(--letter-spacing-display);
+}
+
+.head-text{
+  font-size: var(--headline-font-size);
+  font-weight: var(--font-normal);
+  line-height: var(--line-height-headline);
+}
+
+.title-text{
+  font-size: var(--title-font-size);
+  font-weight: var(--font-normal);
+  line-height: var(--line-height-title);
+}
+
+.label-text{
+  font-size: var(--label-font-size);
+  font-weight: var(--font-medium);
+  line-height: var(--line-height-label);
+  letter-spacing: var(--letter-spacing-label);
+}
+
+.body-text{
+  font-size: var(--body-large);
+  font-weight: var(--font-normal);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
 }
 
 .section {
@@ -71,4 +113,13 @@ a {
 
 li {
   list-style: none;
+}
+
+
+
+/* FOR MEDIUM DEVICE */
+@media screen and (max-width: "") {
+  :root {
+
+  }
 }
