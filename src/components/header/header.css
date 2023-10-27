@@ -28,18 +28,12 @@
   width: 19.1875rem;
   color: var(--colorPink);
   text-align: right;
-  font-size: var(--title-font-size);
-  font-weight: var(--font-normal);
-  line-height: 127.273%;
   padding-bottom: 0.63rem;
 }
 
 .header__Contact {
   color: var(--colorBlue);
   text-align: right;
-  font-size: var(--headline-font-size);
-  font-weight: var(--font-bold);
-  line-height: 125%;
 }
 
 .header__Contact a {
@@ -64,12 +58,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: var(--font-bold);
   color: var(--colorWhite);
-  font-size: var(--label-font-size);
-  line-height: 142.857%;
-  letter-spacing: 0.00625rem;
   transition: all 0.5s;
+  font-weight: var(--font-bold);
+  letter-spacing: 0.00625rem;
+  line-height: 142.857%;
+  font-size: var(--label-font-size);
 }
 
 .headerBottom__nav li:hover {

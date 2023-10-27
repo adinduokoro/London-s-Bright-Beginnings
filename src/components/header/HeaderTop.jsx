@@ -12,11 +12,11 @@ const HeaderTop = () => {
           </Link>
         </div>
         <div className="header__Info">
-          <span className="header__Quote">
+          <span className="header__Quote title-text">
             “Our goal is to create an environment a child enjoys and parents
             love”
           </span>
-          <span className="header__Contact">
+          <span className="header__Contact head-text">
             CALL US:
             <a href="/"> +1 (443) 939-0012</a>
           </span>
