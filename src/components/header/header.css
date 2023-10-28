@@ -27,7 +27,7 @@
 .header__quote {
   color: var(--colorPink);
   text-align: right;
-  padding-bottom: 0.65rem;
+  padding-bottom: 0.50rem;
 }
 
 .header__contact {
@@ -41,18 +41,18 @@
 }
 
 /* NAVIGATION */
-.headerBottom__nav {
+.header__bottom {
   height: 3rem;
 }
 
-.headerBottom__navList {
+.header__navItems {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   background-color: var(--colorBlue);
 }
 
-.headerBottom__nav li {
+.header__bottom li {
   height: 100%;
   width: 100%;
   display: inline-flex;
@@ -63,7 +63,7 @@
   transition: all 0.5s;
 }
 
-.headerBottom__nav li:hover {
+.header__bottom li:hover {
   background-color: var(--colorPink);
 }
 
