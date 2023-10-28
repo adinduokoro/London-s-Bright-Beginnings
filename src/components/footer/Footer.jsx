@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer">
           <div className="footer__logo">
             <img src={WhiteLogo} alt="" />
-            <p>
+            <p className="label-text">
               © 2023 London’s Bright Beginnings. Created by Byte Back Digital.
               All rights reserved.
             </p>
@@ -36,7 +36,7 @@ const Footer = () => {
             <ul>
               {footerContact.map((info, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} className="label-text">
                     <p>{info.street}</p>
                     <p>{info.state}</p>
                     <p>{info.tel}</p>
@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer__social">
-            <h6>FOLLOW US!</h6>
+            <h6 className="title-text">FOLLOW US!</h6>
             <img src={InstagramIcon} alt="" />
           </div>
         </div>
