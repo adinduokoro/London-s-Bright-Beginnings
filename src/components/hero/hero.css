@@ -1,11 +1,8 @@
 /* HERO */
-.section__Medium {
-  margin-bottom: 1.56rem;
-}
-
 .hero__slideshow {
   height: 28.125rem;
   position: relative;
+  margin-bottom: 1.56rem; /* deleting */
 }
 
 .hero__slider {
@@ -15,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .hero__slider #right-arrow {
@@ -35,7 +31,7 @@
 .hero__slider .slide.active {
   opacity: 1;
   transition-duration: 1.25s;
-  transform: scale(1.08);
+  transform: scale(1.10);
 }
 
 .hero__slider .image-count {
@@ -53,15 +49,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 14.06rem;
+  margin-top: 15rem;
   background-color: var(--colorPink);
   display: flex;
-  padding: 1.5rem 1.1875rem;
+  padding: 1.5rem 2rem;
   flex-direction: column;
   align-items: center;
   gap: 0.875rem;
-  width: 27.875rem;
-  height: 10.9375rem;
+  justify-content: center;
+  width: 30rem;
+  height: 10rem;
 }
 
 .hero__ctaQuote {
@@ -81,7 +78,7 @@
   border: 3px solid var(--colorWhite);
   border-radius: 0.3125rem;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 .hero__ctaButton:hover{
@@ -89,7 +86,7 @@
 
 }
 
-.hero__ctaButtonTitle {
+.hero__ctaButton span {
   color: var(--colorWhite);
   text-align: center;
   font-weight: var(--font-bold) !important;

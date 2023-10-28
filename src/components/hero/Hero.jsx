@@ -6,10 +6,9 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="section__Medium">
+    <div className="section-med">
       <div className="hero__slideshow">
         <Slider slides={slides} />
-
         <div className="hero__bannerCta">
           <span className="hero__ctaQuote title-text">
             AT THE HEART OF OUR COMMITMENT IS YOUR PEACE OF MIND. WATCH YOUR
@@ -17,7 +16,7 @@ const Hero = () => {
           </span>
           <Link to="contact">
             <div className="hero__ctaButton">
-              <span className="hero__ctaButtonTitle label-text">CONTACT US</span>
+              <span className="label-text">CONTACT US</span>
             </div>
           </Link>
         </div>

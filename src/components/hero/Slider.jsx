@@ -21,7 +21,7 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <section className="hero__slider">
+    <div className="hero__slider">
       {slides.map((slide, index) => {
         return (
           <div
@@ -34,13 +34,11 @@ const Slider = ({ slides }) => {
           </div>
         );
       })}
-
       <Icon id="right-arrow" icon="ep:arrow-right-bold" onClick={nextSlide} />
-
       <span className="image-count">
         {current + 1} / {length}
       </span>
-    </section>
+    </div>
   );
 };
 
