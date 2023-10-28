@@ -100,7 +100,6 @@ body {
 .section {
   max-width: 65rem;
   margin: 0 auto;
-  border: 2px solid green;
 }
 
 .section-med{

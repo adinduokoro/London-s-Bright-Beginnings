@@ -7,7 +7,10 @@ import InstagramIcon from "../../assets/InstagramIcon.svg";
 
 const Footer = () => {
   return (
-    <div className="footer__bgColor">
+    <div
+      className="section-full"
+      style={{ backgroundColor: "var(--colorPink)" }}
+    >
       <div className="section">
         <div className="footer">
           <div className="footer__logo">
