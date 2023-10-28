@@ -1,49 +1,48 @@
 /* HEADER TOP */
-.header__Top {
+.header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5.59375rem;
-  height: 11rem;
+  margin: 0 5rem;
+  height: 10rem;
 }
 
-.header__Logo {
-  width: 10.625rem;
-  height: 10.625rem;
+.header__logo {
+  width: 10rem;
+  height: 10rem;
   cursor: pointer;
 }
 
-.header__Logo img {
+.header__logo img {
   height: 100%;
 }
 
-.header__Info {
-  width: 23.625rem;
+.header__info {
+  width: 25rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end; 
 }
 
-.header__Quote {
-  width: 19.1875rem;
+.header__quote {
   color: var(--colorPink);
   text-align: right;
-  padding-bottom: 0.63rem;
+  padding-bottom: 0.65rem;
 }
 
-.header__Contact {
+.header__contact {
   color: var(--colorBlue);
   text-align: right;
   font-weight: var(--font-bold) !important;
 }
 
-.header__Contact a {
+.header__contact a {
   color: var(--colorBlue);
 }
 
 /* NAVIGATION */
 .headerBottom__nav {
-  height: 3.125rem;
+  height: 3rem;
 }
 
 .headerBottom__navList {

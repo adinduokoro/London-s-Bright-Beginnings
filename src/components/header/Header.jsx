@@ -5,10 +5,10 @@ import "./header.css"
 
 const Header = () => {
   return (
-    <div className='header'>
+    <nav className='header'>
       <TopHeader />
       <HeaderBottom />
-    </div>
+    </nav>
   )
 }
 

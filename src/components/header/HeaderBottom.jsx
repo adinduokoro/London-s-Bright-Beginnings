@@ -4,17 +4,21 @@ import { navLinks } from "./data";
 
 const HeaderBottom = () => {
   return (
-    <nav className="headerBottom__nav">
-      <ul className="headerBottom__navList" id="navMenu">
-        {navLinks.map((link, index) => {
-          return (
-            <NavLink to={link.path} key={index}>
-              <li className="headerBottom__navItem label-text">{link.name}</li>
-            </NavLink>
-          );
-        })}
-      </ul>
-    </nav>
+    <div className="section-full">
+      <div className="headerBottom__nav">
+        <ul className="headerBottom__navList" id="navMenu">
+          {navLinks.map((link, index) => {
+            return (
+              <NavLink to={link.path} key={index}>
+                <li className="headerBottom__navItem label-text">
+                  {link.name}
+                </li>
+              </NavLink>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
   );
 };
 
