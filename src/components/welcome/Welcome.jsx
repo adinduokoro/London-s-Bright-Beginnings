@@ -40,7 +40,6 @@ const Welcome = () => {
           </div>
         </div>
         <div className="welcome__right">
-          <div className="welcome__info">
             <h1 className="welcome__title head-text">WELCOME</h1>
             <p className="welcome__text body-text">
               Discover London's Bright Beginnings, your trusted childcare choice
@@ -51,7 +50,6 @@ const Welcome = () => {
               years. Join us for a journey where your child's growth is our top
               priority.
             </p>
-          </div>
         </div>
       </div>
       <hr className="welcome__line" />
