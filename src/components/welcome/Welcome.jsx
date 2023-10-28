@@ -1,6 +1,10 @@
 import React from "react";
-import Badge from "../../assets/Badge.png";
-import "./welcome.css"
+import badge from "../../assets/Badge.png";
+import "./welcome.css";
+import star1 from "../../assets/stars/Star1.png";
+import star2 from "../../assets/stars/Star2.png";
+import star3 from "../../assets/stars/Star3.png";
+import bookmark from "../../assets/Bookmark.svg"
 
 const Welcome = () => {
   return (
@@ -9,34 +13,28 @@ const Welcome = () => {
         <div className="welcome__left">
           <div className="welcome__leftTop">
             <h1 className="welcome__businessName head-text">
-              London's Bright Beginnings
+              <span>London's</span>
+              <span>Bright Beginnings</span>
             </h1>
             <div className="welcome__star1">
-
+              <img src={star1} alt="" />
             </div>
-            <div className="welcome__star2"></div>
-            <div className="welcome__star3"></div>
+            <div className="welcome__star2">
+              <img src={star2} alt="" />
+            </div>
+            <div className="welcome__star3">
+              <img src={star3} alt="" />
+            </div>
           </div>
           <div className="welcome__leftBottom">
             <div className="welcome__leftBottomLeft">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="38"
-                viewBox="0 0 30 38"
-                fill="none"
-              >
-                <path
-                  d="M25 0H4.16667C3.0616 0 2.00179 0.438987 1.22039 1.22039C0.438987 2.00179 0 3.0616 0 4.16667V37.5L14.5833 31.25L29.1667 37.5V4.16667C29.1667 3.0616 28.7277 2.00179 27.9463 1.22039C27.1649 0.438987 26.1051 0 25 0Z"
-                  fill="#DF1B7D"
-                />
-              </svg>
+              <img src={bookmark} alt="" />
               <span className="welcome__message title-text">
                 Message from Our Director
               </span>
             </div>
             <div className="welcome__leftBottomRight">
-              <img src={Badge} alt="" />
+              <img src={badge} alt="" />
               <span className="badgeVersion label-text">1</span>
             </div>
           </div>

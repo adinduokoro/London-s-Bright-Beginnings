@@ -2,10 +2,9 @@
 .welcome {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1.5625rem;
+  gap: 1.5rem;
   height: 18.625rem;
-  margin: 0 1.5625rem;
+  padding: 0 2rem;
 }
 
 .welcome__left {
@@ -13,10 +12,11 @@
   flex-direction: column;
   align-items: flex-end;
   align-content: flex-end;
-  gap: 1.5625rem;
+  gap: 1.5rem;
 }
 
 .welcome__leftTop {
+  position: relative;
   width: 20.625rem;
   height: 8.3125rem;
   border-radius: 0.3125rem;
@@ -32,13 +32,28 @@
   color: var(--colorWhite);
   text-align: center;
   font-weight: var(--font-bold) !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__star1,
+.welcome__star2,
+.welcome__star3 {
+  position: absolute;
 }
 
 .welcome__star1 {
+  top: 0.81rem;
+  right: 3.56rem;
 }
+
 .welcome__star2 {
+  top: 2.19rem;
+  right: 17.21rem;
 }
 .welcome__star3 {
+  top: 6rem;
+  right: 2rem;
 }
 
 .welcome__leftBottom {
@@ -46,7 +61,6 @@
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .welcome__leftBottomLeft {
@@ -61,6 +75,11 @@
   align-items: flex-end;
   gap: 0.28125rem;
   height: 8.75rem;
+  position: relative;
+}
+
+.welcome__leftBottomLeft svg{
+  position: absolute;
 }
 
 .welcome__message {
@@ -75,7 +94,6 @@
   padding: 0.8125rem 1.75rem;
   justify-content: center;
   align-items: center;
-  gap: 0.625rem;
   border-radius: 0.3125rem;
   background: var(--colorYellow);
   width: 9.5rem;
@@ -127,7 +145,6 @@
 .welcome__text {
   color: var(--darkText);
   text-align: center;
-
 }
 
 .welcome__line {

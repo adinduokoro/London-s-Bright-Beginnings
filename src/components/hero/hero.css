@@ -2,7 +2,7 @@
 .hero__slideshow {
   height: 28.125rem;
   position: relative;
-  margin-bottom: 1.56rem; /* deleting */
+  margin-bottom: 1.56rem;
 }
 
 .hero__slider {
