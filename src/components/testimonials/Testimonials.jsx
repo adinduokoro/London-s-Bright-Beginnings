@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./testimonials.css";
-import FamilyPhoto from "../../assets/family-photo.png";
-import GraduationCap from "../../assets/graduation-cap.png";
-import Chalk from "../../assets/chalk.png";
+import familyPhoto from "../../assets/family-photo.png";
+import graduationCap from "../../assets/graduation-cap.png";
+import chalk from "../../assets/chalk.png";
 import { testimonials } from "./data";
 
 const Testimonials = () => {
@@ -19,11 +19,11 @@ const Testimonials = () => {
   return (
     <div className="section__full testimonials__bg">
       <div className="section">
-        <img className="testimonials__family" src={FamilyPhoto} alt="" />
-        <img className="testimonials__cap" src={GraduationCap} alt="" />
+        <img className="testimonials__family" src={familyPhoto} alt="" />
+        <img className="testimonials__cap" src={graduationCap} alt="" />
         <div className="testimonials__cards">
           <div className="testimonials__cardsh3">
-            <img src={Chalk} alt="" />
+            <img src={chalk} alt="" />
             <h3>parent testimonials</h3>
           </div>
           <div className="testimonials__slider">

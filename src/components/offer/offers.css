@@ -23,7 +23,6 @@
 /* LEFT */
 .offer__left {
   position: relative;
-  height: 15rem;
 }
 
 .offer__left img {
@@ -38,7 +37,7 @@
   margin-right: 3.31rem;
   margin-bottom: 1.75rem;
   user-select: none;
-
+  
 }
 
 .offer__left .offer__span {
@@ -49,14 +48,12 @@
   margin: 0 auto;
   color: var(--lightText);
   text-align: center;
-
+  
 }
 
 .offer__left .offer__h3 {
-  display: flex;
   padding: 0.8125rem 3.375rem 0.8125rem 0.5625rem;
   justify-content: flex-end;
-  align-items: center;
   gap: 0.625rem;
   background: linear-gradient(90deg, #009bdb 0%, #b90065 100%);
 }
@@ -69,7 +66,6 @@
   white-space: nowrap;
 }
 .offer__left .offer__h5 {
-  display: flex;
   padding: 0.8125rem 1.1875rem 0.8125rem 0.5625rem;
   justify-content: flex-end;
   gap: 0.625rem;
@@ -90,7 +86,6 @@
 
 .offer__left p {
   width: 15rem;
-  padding: 0rem 0.75rem 0.125rem 0rem;
   color: var(--lightText);
 }
 
@@ -107,7 +102,7 @@
 
 .offer__info h4 {
   color: var(--darkText);
-  font-weight: var(--font-semi-bold) !impo;
+  font-weight: var(--font-semi-bold) !important;
   margin-bottom: 1.88rem;
 }
 

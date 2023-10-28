@@ -1,13 +1,13 @@
 /* EDUCATION */
-.education__cardContainer {
+.education {
   display: flex;
   justify-content: center;
   max-height: 44rem;
 }
 
 .education__card {
-  flex: 1;
   position: relative;
+  flex: 1;
 }
 
 .education__overlay {

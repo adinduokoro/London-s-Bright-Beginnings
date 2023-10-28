@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./offers.css";
-import Checkmark from "../../assets/Checkmark.svg";
+import checkmark from "../../assets/Checkmark.svg";
 import { offers } from "./data";
 
 const Offers = () => {
@@ -49,14 +49,14 @@ const Offers = () => {
                       {offer.bulletPoints.map((bulletPoint, index) => {
                         return (
                           <div className="offer__bulletPoint" key={index}>
-                            <img src={Checkmark} alt="" />
+                            <img src={checkmark} alt="" />
                             <p className="label-text">{bulletPoint}</p>
                           </div>
                         );
                       })}
 
                       <div className="offer__bulletAnchor">
-                        <img src={Checkmark} alt="" />
+                        <img src={checkmark} alt="" />
                         <a href={offer.link} className="label-text">{offer.linkText}</a>
                       </div>
                     </div>
