@@ -1,4 +1,5 @@
 import React from "react";
+import "./location.css"
 
 const Location = () => {
   const iframeStyle = {
@@ -10,8 +11,8 @@ const Location = () => {
 
   return (
     <div className="section__full">
-      <>
-        <div style={{ width: "100%" }}>
+      <div className="location__map">
+        <div style={{ width: "100%", height: "100%" }}>
           <iframe
             style={iframeStyle}
             title="Google Map"
@@ -20,7 +21,7 @@ const Location = () => {
             <a href="https://www.maps.ie/population/">Find Population on Map</a>
           </iframe>
         </div>
-      </>
+      </div>
     </div>
   );
 };

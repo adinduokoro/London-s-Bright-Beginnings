@@ -20,6 +20,7 @@ const Testimonials = () => {
   return (
     <div className="section__full" style={{backgroundImage : `url(${chalkboard})`}}>
       <div className="section">
+        <div className="testimonials">
         <img className="testimonials__family" src={familyPhoto} alt="" />
         <img className="testimonials__cap" src={graduationCap} alt="" />
         <div className="testimonials__cards">
@@ -48,6 +49,8 @@ const Testimonials = () => {
               );
             })}
           </div>
+        </div>
+
         </div>
       </div>
     </div>

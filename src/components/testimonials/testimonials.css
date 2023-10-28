@@ -1,13 +1,17 @@
 .section__full {
-  height: 21.3rem;
   position: relative;
   display: flex;
+  height: 21.3rem;
 }
 
 .section {
   /* border: 2px solid green; */
   width: 100%;
   position: relative;
+}
+
+.testimonials{
+  
 }
 
 .testimonials__family {
