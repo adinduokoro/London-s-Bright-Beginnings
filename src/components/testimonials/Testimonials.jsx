@@ -15,7 +15,7 @@ const Testimonials = () => {
       setCurrent(current === length - 1 ? 0 : current + 1);
     }, 7000);
     return () => clearInterval(interval);
-  }, [current]);
+  }, [current, length]);
 
   return (
     <div

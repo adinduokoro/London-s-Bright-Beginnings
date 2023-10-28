@@ -7,13 +7,13 @@ const Slider = ({ slides }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
+      setCurrent((current) => (current === length - 1 ? 0 : current + 1));
     }, 5000);
     return () => clearInterval(interval);
-  }, [current]);
+  }, [current, length]);
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
+    setCurrent((current) => (current === length - 1 ? 0 : current + 1));
   };
 
   if (!Array.isArray(slides) || slides.length <= 0) {

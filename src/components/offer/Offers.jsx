@@ -12,7 +12,7 @@ const Offers = () => {
       setCurrent(current === length - 1 ? 0 : current + 1);
     }, 6000);
     return () => clearInterval(interval);
-  }, [current]);
+  }, [current, length]);
 
   return (
     <div className="section">
@@ -57,7 +57,9 @@ const Offers = () => {
 
                       <div className="offer__bulletAnchor">
                         <img src={checkmark} alt="" />
-                        <a href={offer.link} className="label-text">{offer.linkText}</a>
+                        <a href={offer.link} className="label-text">
+                          {offer.linkText}
+                        </a>
                       </div>
                     </div>
                   </div>
