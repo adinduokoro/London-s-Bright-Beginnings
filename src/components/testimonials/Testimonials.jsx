@@ -4,6 +4,7 @@ import familyPhoto from "../../assets/family-photo.png";
 import graduationCap from "../../assets/graduation-cap.png";
 import chalk from "../../assets/chalk.png";
 import { testimonials } from "./data";
+import chalkboard from "../../assets/Chalkboard.jpg"
 
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
@@ -17,7 +18,7 @@ const Testimonials = () => {
   }, [current]);
 
   return (
-    <div className="section__full testimonials__bg">
+    <div className="section__full" style={{backgroundImage : `url(${chalkboard})`}}>
       <div className="section">
         <img className="testimonials__family" src={familyPhoto} alt="" />
         <img className="testimonials__cap" src={graduationCap} alt="" />
