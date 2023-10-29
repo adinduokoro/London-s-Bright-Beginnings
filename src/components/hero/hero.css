@@ -93,3 +93,11 @@
   font-weight: var(--font-bold) !important;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 700px){
+  .hero__bannerCta {
+    padding: 1.5rem 1.5rem;
+    width: 24rem;
+    z-index: 5;
+  }
+}

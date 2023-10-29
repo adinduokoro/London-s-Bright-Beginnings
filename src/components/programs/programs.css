@@ -35,28 +35,42 @@
 }
 
 .programs__cardHeader .cardLine {
-  max-width: 11rem;
   height: 0.3125rem;
+  max-width: 15rem;
   background: linear-gradient(
     90deg,
     var(--colorBlue) 0%,
     var(--colorPink) 100%
-    );
-  }
-  
-  .programs__cardInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 8rem;
-  }
-  
-  .programs__cardInfo p {
-    color: var(--lightText);
-  }
-  
+  );
+}
+
+.programs__cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.programs__cardInfo p {
+  color: var(--lightText);
+}
+
 .programs__cardInfo a {
   color: var(--primaryColorBlue);
   font-weight: var(--font-medium) !important;
   text-decoration-line: underline;
+}
+
+@media screen and (max-width: 700px) {
+  .program {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .programs__cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+  }
 }
