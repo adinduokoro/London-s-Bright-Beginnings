@@ -2,14 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .offer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 21.3rem;
+  height: 25rem;
   gap: 3rem;
   opacity: 0;
 }
@@ -37,7 +36,6 @@
   margin-right: 3.31rem;
   margin-bottom: 1.75rem;
   user-select: none;
-  
 }
 
 .offer__left .offer__span {
@@ -48,7 +46,6 @@
   margin: 0 auto;
   color: var(--lightText);
   text-align: center;
-  
 }
 
 .offer__left .offer__h3 {
@@ -127,5 +124,34 @@
 
 @media screen and (max-width: 900px) {
   .cards {
+    margin: 0 1.75rem;
+    justify-content: start;
+  }
+
+  .offer {
+    flex-direction: column;
+    height: 30rem;
+    gap: 0;
+    align-items: start;
+  }
+
+  .offer__header {
+    margin-bottom: 0.5rem;
+  }
+
+  .offer__left .offer__p {
+    justify-content: start;
+  }
+
+  .offer__right {
+    height: 12rem;
+  }
+
+  .offer__info {
+    width: 100%;
+  }
+
+  .offer__info h4 {
+    margin-bottom: 0.5rem;
   }
 }
