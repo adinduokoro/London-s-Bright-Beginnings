@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 5rem;
-  height: 10rem;
+  height: auto;
 }
 
 .header__logo {
@@ -69,4 +69,25 @@
 
 #navMenu .active {
   background-color: var(--colorPink);
+}
+
+@media screen and (max-width: 900px) {
+  .header__top {
+    margin: 0 2.5rem;
+  }
+  
+  .header__logo {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .header__info {
+    width: 20rem;
+  }
+
+  .header__quote {
+    padding-bottom: 0.50rem;
+    width: 18rem;
+  }
+  
 }

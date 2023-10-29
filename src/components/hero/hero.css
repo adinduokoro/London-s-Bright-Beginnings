@@ -59,6 +59,7 @@
   justify-content: center;
   width: 30rem;
   height: 10rem;
+  z-index: 5;
 }
 
 .hero__ctaQuote {
@@ -83,7 +84,7 @@
 
 .hero__ctaButton:hover{
   border: 3px solid var(--colorYellow);
-
+  
 }
 
 .hero__ctaButton span {

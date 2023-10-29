@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Playpen+Sans:wght@200;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Playpen+Sans:wght@200;400;500;600;700&display=swap");
 
 /* CONSTANTS */
 * {
@@ -11,25 +11,25 @@
 
 :root {
   /* COLORS */
-  --colorBlue: #009BDB;
-  --colorPink: #DF1B7D;
-  --colorYellow: #FDC800;
-  --colorGreen: #6BC30D;
-  --colorWhite: #FFFFFF;
+  --colorBlue: #009bdb;
+  --colorPink: #df1b7d;
+  --colorYellow: #fdc800;
+  --colorGreen: #6bc30d;
+  --colorWhite: #ffffff;
   --primaryColorBlue: #006590;
-  --primaryColorPink: #B90065;
-  --primaryColorYellow: #755B00;
-  --primaryColorGreen: #376B00;
-  --pinkPrimaryContainer: #FFD9E3; 
-  --pinkOnPrimaryContainer: #3E001E; 
-  --yellowPrimaryContainer: #FFE08F;
-  --darkText: #111111; 
-  --lightText: #777777; 
+  --primaryColorPink: #b90065;
+  --primaryColorYellow: #755b00;
+  --primaryColorGreen: #376b00;
+  --pinkPrimaryContainer: #ffd9e3;
+  --pinkOnPrimaryContainer: #3e001e;
+  --yellowPrimaryContainer: #ffe08f;
+  --darkText: #111111;
+  --lightText: #777777;
 
   /* FONT */
   --body-font: "Dosis", sans-serif;
 
-  /* FONT WEIGHT FOR LARGE*/
+  /* FONT WEIGHT FOR LARGE/MEDIUM*/
   --font-light: 200;
   --font-normal: 400;
   --font-medium: 500;
@@ -44,7 +44,6 @@
   --body-large: 1rem;
   /* Miscellaneous Font Size */
   --display-m-font-size: 3.125rem;
-  
 
   /* LINE HEIGHT FOR LARGE*/
   --line-height-display: 4rem;
@@ -64,33 +63,33 @@ body {
   overflow-x: hidden;
 }
 
-.d-text{
+.d-text {
   font-size: var(--display-font-size);
   font-weight: var(--font-normal);
   line-height: var(--line-height-display);
   letter-spacing: var(--letter-spacing-display);
 }
 
-.head-text{
+.head-text {
   font-size: var(--headline-font-size);
   font-weight: var(--font-normal);
   line-height: var(--line-height-headline);
 }
 
-.title-text{
+.title-text {
   font-size: var(--title-font-size);
   font-weight: var(--font-normal);
   line-height: var(--line-height-title);
 }
 
-.label-text{
+.label-text {
   font-size: var(--label-font-size);
   font-weight: var(--font-medium);
   line-height: var(--line-height-label);
   letter-spacing: var(--letter-spacing-label);
 }
 
-.body-text{
+.body-text {
   font-size: var(--body-large);
   font-weight: var(--font-normal);
   line-height: var(--line-height-body);
@@ -102,16 +101,16 @@ body {
   margin: 0 auto;
 }
 
-.section-med{
+.section-med {
   max-width: 75rem;
   margin: 0 auto;
 }
 
-.section-full{
+.section-full {
   margin: 0 auto;
 }
 
-.section__Medium{
+.section__Medium {
   max-width: 76.1875rem;
   margin: 0 auto;
 }
@@ -124,11 +123,58 @@ li {
   list-style: none;
 }
 
-
-
 /* FOR MEDIUM DEVICE */
-@media screen and (max-width: "") {
+@media screen and (max-width: 900px) {
   :root {
+    /* FONT SIZES FOR LARGE*/
+    --display-font-size: 2.8125rem;
+    --headline-font-size: 1.75rem;
+    --title-font-size: 1rem;
+    --label-font-size: 0.75rem;
+    --body-large: 0.875rem;
 
+    /* LINE HEIGHT FOR LARGE*/
+    --line-height-display: 3.25rem;
+    --line-height-headline: 2.25rem;
+    --line-height-title: 1.5rem;
+    --line-height-label: 1rem;
+    --line-height-body: 1.25rem;
+
+    /* LETTER SPACING FOR LARGE */
+    --title-spacing-display: 0.00938rem;
+    --label-spacing-body: 0.03125rem;
+    --body-spacing-label: 0.01563rem;
+  }
+
+  .d-text {
+    font-size: var(--display-font-size);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-display);
+  }
+  
+  .head-text {
+    font-size: var(--headline-font-size);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-headline);
+  }
+  
+  .title-text {
+    font-size: var(--title-font-size);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-title);
+  }
+  
+  .label-text {
+    font-size: var(--label-font-size);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-label);
+    letter-spacing: var(--letter-spacing-label);
+  }
+  
+  .body-text {
+    font-size: var(--body-large);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
   }
 }
