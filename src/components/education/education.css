@@ -49,3 +49,35 @@
   font-weight: var(--font-semi-bold) !important;
   text-decoration-line: underline;
 }
+
+@media screen and (max-width: 900px) {
+  .education__cardInfo {
+    padding: 0 1.5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .education {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .education__card {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .education__overlay {
+    z-index: 3;
+  }
+
+  .education__card img {
+    transform: translateY(-25%);
+  }
+
+  .education__cardInfo {
+    z-index: 5;
+  }
+}
