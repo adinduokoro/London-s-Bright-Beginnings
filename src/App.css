@@ -178,3 +178,58 @@ li {
     letter-spacing: var(--letter-spacing-body);
   }
 }
+
+/* FOR MEDIUM DEVICE */
+@media screen and (max-width: 600px) {
+  :root {
+    /* FONT SIZES FOR LARGE*/
+    --display-font-size: 2.5rem;
+    --headline-font-size: 1.5rem;
+    --title-font-size: 0.875rem;
+    --label-font-size: 0.6875rem;
+    --body-large: 0.75rem;
+
+    /* LINE HEIGHT FOR LARGE*/
+    --line-height-display: 2.75rem;
+    --line-height-headline: 2rem;
+    --line-height-title: 1.25rem;
+    --line-height-label: 1rem;
+    --line-height-body: 1rem;
+
+    /* LETTER SPACING FOR LARGE */
+    --title-spacing-display: 0.00625rem;
+    --label-spacing-body: 0.03125rem;
+  }
+
+  .d-text {
+    font-size: var(--display-font-size);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-display);
+  }
+  
+  .head-text {
+    font-size: var(--headline-font-size);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-headline);
+  }
+  
+  .title-text {
+    font-size: var(--title-font-size);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-title);
+    letter-spacing: var(--title-spacing-display);
+  }
+  
+  .label-text {
+    font-size: var(--label-font-size);
+    font-weight: var(--font-medium);
+    line-height: var(--line-height-label);
+    letter-spacing: var(--letter-spacing-label);
+  }
+  
+  .body-text {
+    font-size: var(--body-large);
+    font-weight: var(--font-normal);
+    line-height: var(--line-height-body);
+  }
+}
