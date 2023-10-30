@@ -3,7 +3,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border: 2px solid green;
 }
 
 .footer__logo {
@@ -18,7 +17,7 @@
 .footer__logo p {
   color: var(--colorWhite);
   text-align: center;
-
+  
 }
 
 .footer__siteMap {
@@ -82,4 +81,26 @@
 .footer__social img {
   width: 1.25rem;
   height: 1.25rem;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+
+  .footer__siteMap,
+  .footer__siteMap ul,
+  .footer__contact,
+  .footer__contact ul,
+  .footer__social {
+    align-items: center;
+  }
+
+  .footer__contact ul {
+    text-align: center;
+  }
 }
