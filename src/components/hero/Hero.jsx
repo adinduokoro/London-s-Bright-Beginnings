@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="section-med">
+    <div className="section-med" style={{marginTop: "11rem"}}>
       <div className="hero__slideshow">
         <Slider slides={slides} />
         <div className="hero__bannerCta">
