@@ -1,8 +1,9 @@
 .footer {
-  padding: 2.56rem 0;
+  padding: 2.56rem 1.5rem;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  border: 2px solid green;
 }
 
 .footer__logo {
