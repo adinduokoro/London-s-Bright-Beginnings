@@ -102,3 +102,12 @@
     z-index: 5;
   }
 }
+
+@media screen and (max-width: 600px){
+  .hero__slideshow {
+    height: 28.125rem;
+    position: relative;
+    margin-bottom: 1.56rem;
+    margin-top: 16rem;
+  }
+}
