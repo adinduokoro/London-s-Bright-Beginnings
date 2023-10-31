@@ -58,9 +58,11 @@
   --letter-spacing-body: 0.03125rem;
 }
 
+
 body {
   font-family: var(--body-font);
   overflow-x: hidden;
+  min-width: 375px !important;
 }
 
 .d-text {
