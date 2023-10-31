@@ -51,14 +51,14 @@
   top: 2.19rem;
   right: 17.21rem;
   scale: 1.5;
-
+  
 }
 
 .welcome__star3 {
   top: 6rem;
   right: 2rem;
   scale: 1.5;
-
+  
 }
 
 .welcome__leftBottom {
@@ -69,6 +69,7 @@
 }
 
 .welcome__leftBottomLeft {
+  border: 2px solid green;
   border-radius: 0.3125rem;
   background: var(--pinkPrimaryContainer);
   display: flex;
@@ -91,6 +92,7 @@
   color: var(--pinkOnPrimaryContainer);
   text-align: center;
   font-weight: var(--font-medium) !important;
+  font-size: 1.375rem !important;
 }
 
 .welcome__leftBottomRight {
@@ -195,4 +197,41 @@
     
   }
 
+}
+
+@media screen and (max-width: 450px){
+  .welcome__left {
+    gap: .5rem;
+  }
+
+  .welcome__leftTop {
+    width: 20rem;
+  }
+
+  .welcome__star1 {
+    right: 3rem;
+  }
+  
+  .welcome__star2 {
+    right: 16.5rem;
+    scale: 1.5;
+  
+  }
+  
+  .welcome__star3 {
+    right: 2rem;
+  
+  }
+
+  .welcome__leftBottom {
+    gap: .5rem;
+  }
+
+  .welcome__leftBottomLeft {
+    width: 9.75rem;
+  }
+
+  .welcome__leftBottomRight {
+    width: 9.75rem;
+  }
 }
