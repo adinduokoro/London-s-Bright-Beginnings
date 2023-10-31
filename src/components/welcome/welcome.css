@@ -28,7 +28,6 @@
 
 .welcome__businessName {
   width: 14.8125rem;
-  height: 5.3125rem;
   color: var(--colorWhite);
   text-align: center;
   font-weight: var(--font-bold) !important;
@@ -43,18 +42,23 @@
 }
 
 .welcome__star1 {
-  top: 0.81rem;
+  top: 1.25rem;
   right: 3.56rem;
+  scale: 1.5;
 }
 
 .welcome__star2 {
   top: 2.19rem;
   right: 17.21rem;
+  scale: 1.5;
+
 }
 
 .welcome__star3 {
   top: 6rem;
   right: 2rem;
+  scale: 1.5;
+
 }
 
 .welcome__leftBottom {
@@ -164,8 +168,18 @@
     width: 25rem;
   }
 
+  .welcome__star1 {
+    right: 5rem;
+  }
+  
   .welcome__star2 {
-    right: 20rem;
+    right: 20.5rem;
+  
+  }
+  
+  .welcome__star3 {
+    right: 2.5rem;
+  
   }
 
   .welcome__leftBottomLeft {
