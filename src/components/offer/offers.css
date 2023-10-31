@@ -32,6 +32,7 @@
 }
 
 .offer__header {
+  
   margin-top: 1.44rem;
   margin-right: 3.31rem;
   margin-bottom: 1.75rem;
@@ -153,5 +154,23 @@
 
   .offer__info h4 {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .offer__left img {
+    scale: 0.75;
+  }
+
+  .offer__left .offer__h3 {
+    padding: 0.8125rem 2.75rem 0.8125rem 0.5625rem;
+  }
+
+  .offer__left h3 {
+    font-size: var(--display-font-size);
+  }
+  
+  .offer__left h5 {
+    font-size: var(--display-font-size);
   }
 }
