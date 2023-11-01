@@ -17,8 +17,8 @@
 }
 
 .header__logo {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   cursor: pointer;
 }
 
@@ -36,7 +36,6 @@
 .header__quote {
   color: var(--colorPink);
   text-align: right;
-  padding-bottom: 0.5rem;
 }
 
 .header__contact {
