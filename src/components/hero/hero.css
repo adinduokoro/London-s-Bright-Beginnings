@@ -26,12 +26,7 @@
   user-select: none;
 }
 
-.hero__slider .slide {
-  opacity: .75;
-}
-
 .hero__slider .slide.active {
-  opacity: 1;
   transition-duration: 1.25s;
   transform: scale(1.10);
 }
@@ -49,6 +44,10 @@
 
 }
 
+.hero__bannerCta::before{
+  opacity: 1;
+}
+
 .hero__bannerCta {
   position: absolute;
   top: 0;
@@ -64,6 +63,10 @@
   width: 30rem;
   height: 9rem;
   z-index: 25;
+  opacity: 1;
+}
+
+.hero__bannerCta::after{
   opacity: 1;
 }
 
