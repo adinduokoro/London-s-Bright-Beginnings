@@ -112,10 +112,11 @@
 
 @media screen and (max-width: 600px) {
   .header {
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
   }
-
+  
   .header__logo {
     width: 6rem;
     height: 6rem;
@@ -124,8 +125,9 @@
   .header__top {
     flex-direction: column-reverse;
     margin: 0 0rem;
+    margin-top: 3rem;
   }
-
+  
   .header__info {
     display: none;
   }
@@ -147,7 +149,7 @@
     display: flex;
     align-items: center;
   }
-
+  
   .header__mobileInfo a {
     color: var(--colorWhite);
   }
@@ -161,11 +163,13 @@
   }
 
   .header__bottom {
-    width: 100vw;
     background-color: var(--colorBlue);
     display: flex;
     justify-content: end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   .header__navItems {
@@ -183,7 +187,7 @@
 
   .header__navItems.active {
     transition: all 0.5s ease;
-    height: 95%;
+    height: 500%;
   }
 
   .header__bottom li {

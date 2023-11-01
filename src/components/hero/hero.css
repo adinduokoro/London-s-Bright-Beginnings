@@ -114,6 +114,10 @@
 }
 
 @media screen and (max-width: 600px){
+  .hero__slideshow {
+    margin-top: 0rem;
+  }
+
   .hero__bannerCta {
     padding: 1rem;
     width: 20rem;
