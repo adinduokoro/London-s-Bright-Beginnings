@@ -1,11 +1,10 @@
 import React from 'react'
 import "./paragraphImg.css"
-import person from "../../../assets/Person.jpg"
 
-const ParagraphImg = () => {
+const ParagraphImg = ({ img }) => {
   return (
     <div className='paragraphImg'>
-      <img src={person} alt=''/>
+      <img src={img} alt=''/>
     </div>
   )
 }

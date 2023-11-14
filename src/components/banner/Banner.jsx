@@ -1,7 +1,7 @@
 import React from "react";
 import "./banner.css";
 
-const Banner = ({ pageTitle, bannerImg }) => {
+const Banner = ({ bannerImg }) => {
   return (
     <div className="section-full">
       <div className="banner">
