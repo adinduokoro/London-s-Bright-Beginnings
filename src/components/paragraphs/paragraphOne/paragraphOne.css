@@ -15,10 +15,11 @@
 .paragraphOne li{
   color: var(--lightText);
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .paragraphOne li img{
+  margin-top: .25rem;
   width: 0.9375rem;
   height: 0.9375rem;
 }

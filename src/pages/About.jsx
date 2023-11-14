@@ -30,7 +30,12 @@ const About = () => {
                 "Lorem ipsum dolor sit amet consectetur. Turpis nec tortor neque metus lectus dictumst nunc.",
               ]}
             />
-            <ParagraphTwo />
+            <ParagraphTwo
+              title={"Our Philosophy"}
+              body={
+                "Lorem ipsum dolor sit amet consectetur. Et mollis quis pretium at ultrices est quis id. Habitasse tristique ut erat habitasse in sit. Sit suspendisse ullamcorper pellentesque at vulputate sit velit. Feugiat tellus quam tortor viverra tellus dignissim arcu auctor eget. Consectetur id turpis eget porta ibendum posuere leo sed. Leo amet dolor metus tristique elementum in. Ultricies ut scelerisque in in dictumst id egestas. Orci sed dolor duis vulputate in enim malesuada mollis quisque sollicitudin."
+              }
+            />
           </div>
           <div className="our__director section">
             <ParagraphImg img={directorImg} />
