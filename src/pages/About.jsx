@@ -10,15 +10,21 @@ const About = () => {
   return (
     <div className="about__page">
       <Banner pageTitle={"About Us"} bannerImg={aboutBanner} />
-      <div className="content" style={{marginBottom: "3.12rem"}}>
-        <div className="about__content section">
-          <ParagraphImg />
-          <ParagraphOne />
-          <ParagraphTwo />
-        </div>
-        <div className="our__director section">
-          <ParagraphImg />
-          <ParagraphThree />
+      <div className="content" style={{ marginBottom: "3.12rem" }}>
+        <div className="about__container" style={{ margin: "0 1.5rem" }}>
+          <div className="section">
+            <h1 className="page__header head-text">About Us</h1>
+          </div>
+          {/* Put in its own header file */}
+          <div className="about__content section">
+            <ParagraphImg />
+            <ParagraphOne />
+            <ParagraphTwo />
+          </div>
+          <div className="our__director section">
+            <ParagraphImg />
+            <ParagraphThree />
+          </div>
         </div>
       </div>
     </div>

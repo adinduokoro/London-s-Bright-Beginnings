@@ -7,9 +7,6 @@ const Banner = ({ pageTitle, bannerImg }) => {
       <div className="banner">
         <img src={bannerImg} alt="" />
       </div>
-      <div className="section">
-        <h1 className="page__header head-text">{pageTitle}</h1>
-      </div>
     </div>
   );
 };
