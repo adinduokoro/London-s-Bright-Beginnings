@@ -2,12 +2,12 @@ import React from "react";
 import "./paragraphOne.css";
 import RightArrow from "../../../assets/RightArrow.svg";
 
-const ParagraphOne = () => {
+const ParagraphOne = ({title, body}) => {
   return (
     <div className="paragraphOne">
-      <h3 className="title-text">Our Vision</h3>
+      <h3 className="title-text">{title}</h3>
       <p className="body-text">
-        The Vision of London’s Bright Beginnings is to be a place where we:
+        {body}
       </p>
       <ul>
         <li>

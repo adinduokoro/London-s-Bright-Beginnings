@@ -18,7 +18,7 @@ const About = () => {
           <Header title={"About Us"} />
           <div className="about__content section">
             <ParagraphImg img={aboutUsImg}/>
-            <ParagraphOne />
+            <ParagraphOne title={"Our Vision"} body={"The Vision of London’s Bright Beginnings is to be a place where we:"} bullet-points={""}/>
             <ParagraphTwo />
           </div>
           <div className="our__director section">
