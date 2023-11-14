@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="about__page">
       <Banner pageTitle={"About Us"} bannerImg={aboutBanner} />
-      <div className="content">
+      <div className="content" style={{marginBottom: "3.12rem"}}>
         <div className="about__content section">
           <ParagraphImg />
           <ParagraphOne />
