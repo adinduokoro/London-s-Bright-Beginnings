@@ -1,0 +1,23 @@
+.banner{
+  margin-top: 11rem;
+  height: auto;
+  width: 100%;
+}
+
+.banner img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.page__header{
+  color: var(--primaryColorPink);
+  font-weight: var(--font-bold) !important;
+  padding: 3.12rem 0 1.25rem 0;
+}
+
+
+@media screen and (max-width: 600px){
+  .banner {
+    margin-top: 0rem;
+  }
+}

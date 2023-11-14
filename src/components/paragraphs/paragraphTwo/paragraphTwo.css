@@ -1,0 +1,10 @@
+.paragraphTwo h3{
+  color: var(--primaryColorBlue);
+  font-weight: var(--font-semi-bold);
+  padding-bottom: 0.62rem;
+}
+
+.paragraphTwo p{
+  padding-bottom: 1.56rem;
+}
+

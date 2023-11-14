@@ -1,0 +1,24 @@
+.paragraphOne h3{
+  color: var(--primaryColorBlue);
+  font-weight: var(--font-semi-bold);
+  padding-bottom: 0.62rem;
+}
+
+.paragraphOne p{
+  padding-bottom: 0.94rem;
+}
+
+.paragraphOne ul{
+  padding-bottom: 1.56rem;
+}
+
+.paragraphOne li{
+  color: var(--lightText);
+  display: flex;
+  align-items: center;
+}
+
+.paragraphOne li img{
+  width: 0.9375rem;
+  height: 0.9375rem;
+}

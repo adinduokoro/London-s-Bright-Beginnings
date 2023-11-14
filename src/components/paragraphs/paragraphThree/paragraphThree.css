@@ -1,0 +1,21 @@
+.paragraphThree h3{
+  color: var(--primaryColorBlue);
+  font-weight: var(--font-semi-bold);
+  padding-bottom: 1.25rem;
+}
+
+.paragraphThree h2{
+  padding-bottom: 0.63rem;
+  color: var(--primaryColorGreen);
+  font-weight: var(--font-semi-bold);
+  font-size: 1.1875rem !important;
+}
+
+.paragraphThree span{
+  padding-bottom: 0.63rem;
+  font-weight: var(--font-bold);
+}
+
+.paragraphThree p{
+  max-width: 40.5rem;
+}
