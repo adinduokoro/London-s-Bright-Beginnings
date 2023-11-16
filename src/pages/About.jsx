@@ -12,7 +12,7 @@ import directorImg from "../assets/Person.jpg";
 const About = () => {
   return (
     <div className="about__page">
-      <Banner pageTitle={"About Us"} bannerImg={aboutBanner} />
+      <Banner bannerImg={aboutBanner} />
       <div className="content" style={{ marginBottom: "3.12rem" }}>
         <div className="about__container" style={{ margin: "0 1.5rem" }}>
           <Header title={"About Us"} />
