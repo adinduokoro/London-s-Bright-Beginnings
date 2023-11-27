@@ -1,10 +1,8 @@
 import React from "react";
 import Banner from "../components/banner/Banner";
 import aboutBanner from "../assets/AboutBanner.png";
-import ParagraphOne from "../components/paragraphs/paragraphOne/ParagraphOne";
-import ParagraphTwo from "../components/paragraphs/paragraphTwo/ParagraphTwo";
+import ParagraphContent from "../components/paragraphs/paragraphContent/ParagraphContent";
 import ParagraphImg from "../components/paragraphs/paragraphImg/ParagraphImg";
-import ParagraphThree from "../components/paragraphs/paragraphThree/ParagraphThree";
 import Header from "../components/paragraphs/header/Header";
 import aboutUsImg from "../assets/AboutUs.jpg";
 import directorImg from "../assets/Person.jpg";
@@ -18,7 +16,7 @@ const About = () => {
           <Header title={"About Us"} />
           <div className="about__content section">
             <ParagraphImg img={aboutUsImg} />
-            <ParagraphOne
+            <ParagraphContent
               title={"Our Vision"}
               body={
                 "The Vision of London’s Bright Beginnings is to be a place where we:"
@@ -30,8 +28,8 @@ const About = () => {
                 "Lorem ipsum dolor sit amet consectetur. Turpis nec tortor neque metus lectus dictumst nunc.",
               ]}
             />
-            <ParagraphTwo
-              title={"Our Philosophy"}
+            <ParagraphContent 
+              title={"Our Philosphy"}
               body={
                 "Lorem ipsum dolor sit amet consectetur. Et mollis quis pretium at ultrices est quis id. Habitasse tristique ut erat habitasse in sit. Sit suspendisse ullamcorper pellentesque at vulputate sit velit. Feugiat tellus quam tortor viverra tellus dignissim arcu auctor eget. Consectetur id turpis eget porta ibendum posuere leo sed. Leo amet dolor metus tristique elementum in. Ultricies ut scelerisque in in dictumst id egestas. Orci sed dolor duis vulputate in enim malesuada mollis quisque sollicitudin."
               }
@@ -39,8 +37,8 @@ const About = () => {
           </div>
           <div className="our__director section">
             <ParagraphImg img={directorImg} />
-            <ParagraphThree
-              title={"Our Staff"}
+            <ParagraphContent 
+
               header={"Our Director"}
               subHeader={"Jane Doe"}
               body={

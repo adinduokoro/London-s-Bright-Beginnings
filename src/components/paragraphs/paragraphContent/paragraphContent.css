@@ -1,0 +1,41 @@
+.paragraphContent{
+  padding-bottom: 0.62rem;
+
+}
+
+.paragraphContent h3{
+  color: var(--primaryColorBlue);
+  font-weight: var(--font-semi-bold);
+}
+
+.paragraphContent h2{
+  padding-bottom: 0.63rem;
+  color: var(--primaryColorGreen);
+  font-weight: var(--font-semi-bold);
+  font-size: 1.1875rem !important;
+}
+
+.paragraphContent span{
+  padding-bottom: 0.63rem;
+  font-weight: var(--font-bold);
+}
+
+.paragraphContent p{
+  padding-bottom: 0.94rem;
+}
+
+.paragraphContent ul{
+  padding-bottom: 1.56rem;
+}
+
+.paragraphContent li{
+  color: var(--lightText);
+  display: flex;
+  align-items: start;
+}
+
+.paragraphContent li img{
+  margin-top: .25rem;
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
