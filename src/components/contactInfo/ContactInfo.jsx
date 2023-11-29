@@ -4,7 +4,7 @@ import "./contactInfo.css";
 
 const ContactInfo = () => {
   return (
-    <div className="content" style={{ marginBottom: "3.12rem" }}>
+    <div className="content" style={{ marginBottom: "3rem" }}>
       <div className="contact__container" style={{ margin: "0 1.5rem" }}>
         <Header title={"Contact"} />
         <div className="contact__content section">
