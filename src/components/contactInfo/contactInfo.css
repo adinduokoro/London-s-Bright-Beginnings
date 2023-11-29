@@ -1,0 +1,29 @@
+.contact__name,
+.contact__street,
+.contact__postal{
+  color: var(--colorBlue);
+  font-weight: var(--font-semi-bold) !important;
+}
+
+.contact__postal{
+  margin-bottom: 1.5rem;
+}
+
+.contact__phone{
+  color: var(--primaryColorBlue);
+  font-weight: var(--font-bold);
+  margin-bottom: 1rem;
+}
+
+.contact__hours{
+  margin-bottom: 1.5rem;
+}
+
+.contact__email{
+  font-weight: var(--font-semi-bold) !important;
+  color: var(--primaryColorBlue);
+}
+
+.contact__email span{
+  color: var(--lightText);
+}

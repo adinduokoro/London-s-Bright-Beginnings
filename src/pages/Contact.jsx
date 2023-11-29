@@ -1,21 +1,19 @@
-import React from 'react'
-import Banner from '../components/banner/Banner'
-import contactBanner from "../assets/ContactBanner.png"
-import Header from '../components/paragraphs/header/Header'
+import React from "react";
+import Banner from "../components/banner/Banner";
+import contactBanner from "../assets/ContactBanner.png";
+import Location from "../components/location/Location";
+import Form from "../components/form/Form";
+import ContactInfo from "../components/contactInfo/ContactInfo";
 
 const Contact = () => {
   return (
-    <div className='contact'>
-      <Banner pageTitle={"Contact Us"} bannerImg={contactBanner} />
-      <div className="content" style={{ marginBottom: "3.12rem" }}>
-        <div className="contact__container" style={{ margin: "0 1.5rem" }}>
-          <Header title={"Contact"}/>
-          <div className="contact__content section">
-          </div>
-        </div>
-      </div>
+    <div className="contact">
+      <Banner bannerImg={contactBanner} />
+      <ContactInfo />
+      <Location />
+      <Form />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

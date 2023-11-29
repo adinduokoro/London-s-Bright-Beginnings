@@ -7,7 +7,7 @@ import ParagraphContent from '../components/paragraphs/paragraphContent/Paragrap
 const Curriculum = () => {
   return (
     <div className='curriculum'>
-      <Banner pageTitle={"Curriculum"} bannerImg={curriculumBanner} />
+      <Banner bannerImg={curriculumBanner} />
       <div className="content" style={{ marginBottom: "3.12rem" }}>
         <div className="curriculum__container" style={{ margin: "0 1.5rem" }}>
           <Header title={"Curriculum"}/>
