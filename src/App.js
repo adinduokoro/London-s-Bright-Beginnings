@@ -7,11 +7,13 @@ import Curriculum from "./pages/Curriculum";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Layout from "./layout/Layout.jsx";
+import ScrollToTop from "./helpers/ScrollToTop.jsx";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
