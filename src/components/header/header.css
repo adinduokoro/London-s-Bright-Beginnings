@@ -210,7 +210,7 @@
 
   .header__menu {
     display: inline-flex;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     color: var(--colorWhite);
     scale: 2;
   }

@@ -8,6 +8,7 @@ const Form = () => {
         <div className="form__content">
           <h2 className="head-text">Inquiries</h2>
           <form className="body-text">
+            <>
             <label>
               Parent's Name
               <input type="text" name="pName" />
@@ -49,11 +50,12 @@ const Form = () => {
               <textarea
                 placeholder="Say something"
                 name="comment"
-                rows={4}
+                rows={8}
                 cols={40}
               />
             </label>
-            <input type="submit" />
+            </>
+            <button type="submit">Submit</button>
           </form>
         </div>
       </div>

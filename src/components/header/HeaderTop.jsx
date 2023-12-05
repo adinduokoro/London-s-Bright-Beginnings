@@ -19,8 +19,8 @@ const HeaderTop = () => {
             love”
           </span>
           <span className="header__contact head-text">
-            CALL US:
-            <a href="/"> +1 (443) 939-0012</a>
+            <a href="tel:+14439390012">
+            CALL US: +1 (443) 939-0012</a>
           </span>
         </div>
         <div className="header__mobileInfo">
@@ -33,17 +33,21 @@ const HeaderTop = () => {
           <div className="email">
             <p>
               <Icon id="head-icons" icon="mdi:email-outline" />
-              <a href="">Email Us Now</a>
+              <a href="mailto:londonslearningcenterllc@yahoo.com">
+                Email Us Now
+              </a>
             </p>
           </div>
           <div className="phone">
             <p>
               <Icon id="head-icons" icon="mdi:phone" />
-              Call:&nbsp;<a href="">(443) 939-0012</a>
+              Call:&nbsp;<a href="tel:+14439390012">(443) 939-0012</a>
             </p>
           </div>
           <div>
-            <img id="head-social" src={InstagramIcon} alt="" />
+            <a href="https://instagram.com/londons_bright_beginnings_llc?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"> 
+              <img id="head-social" src={InstagramIcon} alt="" />
+            </a>
           </div>
         </div>
       </div>

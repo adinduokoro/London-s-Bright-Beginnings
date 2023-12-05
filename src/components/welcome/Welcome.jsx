@@ -5,6 +5,8 @@ import star1 from "../../assets/stars/Star1.png";
 import star2 from "../../assets/stars/Star2.png";
 import star3 from "../../assets/stars/Star3.png";
 import bookmark from "../../assets/Bookmark.svg"
+import { Icon } from '@iconify/react';
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -32,6 +34,11 @@ const Welcome = () => {
               <span className="welcome__message title-text">
                 Message from Our Director
               </span>
+              <Link to="/about">
+                <div className="director__button">
+                <Icon icon="mdi:plus"/>
+                </div>
+              </Link>
             </div>
             <div className="welcome__leftBottomRight">
               <img src={badge} alt="" />

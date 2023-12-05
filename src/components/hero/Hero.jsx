@@ -15,7 +15,10 @@ const Hero = () => {
               AT THE HEART OF OUR COMMITMENT IS YOUR PEACE OF MIND. WATCH YOUR
               CHILD THRIVE IN A SAFE ENRICHING ENVIRONMENT
             </span>
-            <Link to="contact">
+            <Link
+              to="/contact"
+
+            >
               <div className="hero__ctaButton">
                 <span className="label-text">CONTACT US</span>
               </div>
