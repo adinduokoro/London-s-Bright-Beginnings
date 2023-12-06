@@ -1,6 +1,7 @@
 import React from "react";
 import { programs } from "./data";
 import "./programs.css";
+import { Link } from "react-router-dom";
 
 const Programs = () => {
   return (
@@ -19,13 +20,13 @@ const Programs = () => {
                 </div>
                 <div className="programs__cardInfo">
                   <p className="body-text">{program.paragraph}</p>
-                  <a
-                    href={program.path}
+                  <Link to={program.path}
+                    
                     className="body-text"
                     style={{ color: program.color }}
                   >
                     READ MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { courses } from "./data";
 import "./education.css";
+import { Link } from "react-router-dom";
 
 const Education = () => {
   return (
@@ -14,9 +15,9 @@ const Education = () => {
               <div className="education__cardInfo">
                 <h2 className="head-text">{course.title}</h2>
                 <p className="body-text">{course.text}</p>
-                <a href={course.path} className="body-text">
+                <Link to={course.path} className="body-text">
                   MORE
-                </a>
+                </Link>
               </div>
             </div>
           );

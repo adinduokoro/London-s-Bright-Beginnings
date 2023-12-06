@@ -101,8 +101,8 @@
   display: flex;
   color: var(--colorBlue);
   border-radius: 0.3125rem;
-  bottom: .25rem;
-  right: .25rem;
+  bottom: .5rem;
+  right: .5rem;
   cursor: pointer;
 }
 

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./offers.css";
 import checkmark from "../../assets/Checkmark.svg";
 import { offers } from "./data";
+import { Icon } from "@iconify/react";
+
 
 const Offers = () => {
   const [current, setCurrent] = useState(0);
@@ -13,6 +15,14 @@ const Offers = () => {
     }, 6000);
     return () => clearInterval(interval);
   }, [current, length]);
+
+  const prevSlide = () => {
+    setCurrent((current) => (current === 0 ? length - 1 : current - 1));
+  };
+
+  const nextSlide = () => {
+    setCurrent((current) => (current === length - 1 ? 0 : current + 1));
+  };
 
   return (
     <div className="section">
@@ -68,7 +78,11 @@ const Offers = () => {
             </div>
           );
         })}
+      <Icon id="left-arrow" icon="ep:arrow-left-bold" onClick={prevSlide} />
+      <Icon id="right-arrow" icon="ep:arrow-right-bold" onClick={nextSlide} />
+
       </div>
+      
     </div>
   );
 };

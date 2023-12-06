@@ -5,6 +5,9 @@ import { footerData, footerContact } from "./data";
 import { Link } from "react-router-dom";
 import InstagramIcon from "../../assets/InstagramIcon.svg";
 
+const date = new Date();
+const year = date.getFullYear();
+
 const Footer = () => {
   return (
     <div
@@ -14,9 +17,11 @@ const Footer = () => {
       <div className="section">
         <div className="footer">
           <div className="footer__logo">
-            <img src={WhiteLogo} alt="" />
+            <Link to="/">
+              <img src={WhiteLogo} alt="" />
+            </Link>
             <p className="label-text">
-              © 2023 London’s Bright Beginnings. Created by Byte Back Digital.
+              © {year} London’s Bright Beginnings. Created by Byte Back Digital.
               All rights reserved.
             </p>
           </div>
@@ -51,7 +56,12 @@ const Footer = () => {
           </div>
           <div className="footer__social">
             <h6 className="title-text">FOLLOW US!</h6>
-            <img src={InstagramIcon} alt="" />
+            <a
+              href="https://instagram.com/londons_bright_beginnings_llc?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+            >
+              <img src={InstagramIcon} alt="" />
+            </a>
           </div>
         </div>
       </div>

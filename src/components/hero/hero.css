@@ -19,7 +19,7 @@
   z-index: 26;
   position: absolute;
   color: var(--colorWhite);
-  scale: 5;
+  scale: 3;
   right: 3rem;
   cursor: pointer;
   opacity: 50%;

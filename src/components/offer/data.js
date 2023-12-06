@@ -18,7 +18,7 @@ export const offers = [
       "Stringent safety guidelines, staff CPR/First Aid certified",
     ],
     linkText: "Discover more about our staff",
-    link: "/",
+    link: "/curriculum",
   },
   {
     image: Money,
@@ -34,7 +34,7 @@ export const offers = [
       "Comprehensive Tuition Packages, Covering All Fees",
     ],
     linkText: "Discover more about tuition",
-    link: "/",
+    link: "/contact",
   },
   {
     image: Badge,
@@ -50,7 +50,7 @@ export const offers = [
       "We Prioritize Safety: Team CPR/First Aid Certified",
     ],
     linkText: "Discover more about us",
-    link: "/",
+    link: "/about",
   },
   {
     image: Apple,
@@ -66,6 +66,6 @@ export const offers = [
       "Simple meal plans",
     ],
     linkText: "Discover more about Nutrition & Meals",
-    link: "/",
+    link: "/contact",
   },
 ];
