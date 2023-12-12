@@ -4,6 +4,7 @@ import curriculumBanner from "../assets/CurriculumBanner.png"
 import Header from '../components/paragraphs/header/Header'
 import ParagraphContent from '../components/paragraphs/paragraphContent/ParagraphContent'
 import { badges } from '../components/paragraphs/paragraphContent/data'
+import curriculum from "../assets/documents/londonscurriculum.pdf"
 
 const Curriculum = () => {
   return (
@@ -22,6 +23,8 @@ const Curriculum = () => {
             <ParagraphContent
               title={"Ten Domains for Kindergarten Preparedness in Learning"}
               badges={badges}
+              docLink={curriculum}
+              docName="Download Sample Curriculum"
             />
           </div>
         </div>

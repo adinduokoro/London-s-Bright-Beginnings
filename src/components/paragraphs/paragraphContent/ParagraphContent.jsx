@@ -9,6 +9,8 @@ const ParagraphContent = ({
   body,
   bulletPoints,
   badges,
+  docLink,
+  docName,
 }) => {
   return (
     <div className="paragraphContent">
@@ -45,7 +47,9 @@ const ParagraphContent = ({
           })}
         </ul>
       ) : null}
-      {/* Download Link */}
+      <a href={docLink} target="_blank" without rel="noreferrer">
+        <p className="body-text">{docName}</p>
+      </a>
     </div>
   );
 };
