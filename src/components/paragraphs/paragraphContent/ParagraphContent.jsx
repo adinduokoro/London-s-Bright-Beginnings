@@ -2,13 +2,37 @@ import React from "react";
 import "./paragraphContent.css";
 import RightArrow from "../../../assets/RightArrow.svg";
 
-const ParagraphContent = ({ subHeader, header , title, body, bulletPoints }) => {
+const ParagraphContent = ({
+  subHeader,
+  header,
+  title,
+  body,
+  bulletPoints,
+  badges,
+}) => {
   return (
     <div className="paragraphContent">
       <h3 className="title-text">{title}</h3>
-      <h2 className='body-text'>{header}</h2>
-      <span className='body-text'>{subHeader}</span>
+      <h2 className="body-text">{header}</h2>
+      <span className="body-text">{subHeader}</span>
       <p className="body-text">{body}</p>
+      {badges ? (
+        <>
+          {badges.map((badge, index) => {
+            return (
+              <div className="badge" key={index}>
+                <div className="icon">
+                  <img src={badge.img} alt="" />
+                </div>
+                <div className="badge-info">
+                  <span className="body-text">{badge.subHeader}</span>
+                  <p className="body-text">{badge.info}</p>
+                </div>
+              </div>
+            );
+          })}
+        </>
+      ) : null}
       {bulletPoints ? (
         <ul>
           {bulletPoints.map((bullets, index) => {
@@ -21,6 +45,7 @@ const ParagraphContent = ({ subHeader, header , title, body, bulletPoints }) => 
           })}
         </ul>
       ) : null}
+      {/* Download Link */}
     </div>
   );
 };

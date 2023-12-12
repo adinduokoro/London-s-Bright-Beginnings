@@ -1,5 +1,5 @@
 .paragraphContent{
-  padding-bottom: 0.62rem;
+  padding-bottom: 1rem;
 
 }
 
@@ -24,6 +24,22 @@
   padding-bottom: 0.94rem;
 }
 
+.paragraphContent .badge{
+  display: flex;
+  gap: 0.9375rem;
+  align-items: center;
+  padding-bottom: 0.20rem;
+}
+
+.paragraphContent .icon{
+margin: 0.9375rem;
+
+}
+
+.paragraphContent .badge img{
+  height: 3.125rem;
+}
+
 .paragraphContent ul{
   padding-bottom: 1.56rem;
 }
@@ -32,10 +48,11 @@
   color: var(--lightText);
   display: flex;
   align-items: start;
+  padding-bottom: 0.20rem;
 }
 
 .paragraphContent li img{
-  margin-top: .25rem;
+  margin-top: .5rem;
   width: 0.9375rem;
   height: 0.9375rem;
 }

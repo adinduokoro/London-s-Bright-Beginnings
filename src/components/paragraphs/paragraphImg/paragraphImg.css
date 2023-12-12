@@ -6,7 +6,7 @@
 }
 
 .paragraphImg img{
-  border: 5px solid var(--primaryColorBlue);
+  border: 5px solid var(--primaryColorPink);
   width: 100%;
   height: 100%;
   object-fit: cover;

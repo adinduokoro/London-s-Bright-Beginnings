@@ -18,7 +18,7 @@ const ContactInfo = () => {
               Hours of operation. Monday-Friday (6:30am-6:30pm)
             </p>
             <h2 className="contact__email title-text">Email: 
-            <span> business@gmail.com</span>
+            <span> londonslearningcenterllc@yahoo.com</span>
             
             </h2>
           </div>
