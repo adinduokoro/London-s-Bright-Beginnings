@@ -43,7 +43,7 @@
 .paragraphContent li {
   color: var(--lightText);
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   padding-bottom: 0.2rem;
 }
 

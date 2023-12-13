@@ -164,7 +164,7 @@
   .header__bottom {
     background-color: var(--colorBlue);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     position: fixed;
     top: 0;
@@ -195,7 +195,7 @@
     width: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     font-weight: var(--font-bold) !important;
     color: var(--colorWhite);
   }
