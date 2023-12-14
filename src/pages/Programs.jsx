@@ -16,7 +16,7 @@ const Programs = () => {
         <div className="programs__container" style={{ margin: "0 1.5rem" }}>
           <Header title={"Programs"} />
           <div className="programs__content section">
-            <ParagraphImg img={toddler2} />
+            <ParagraphImg img={toddler1} />
             <ParagraphContent
               title={"Infants"}
               body={
@@ -33,7 +33,7 @@ const Programs = () => {
               docName={"Sample Toddler Daily Schedule (PDF)"}
               docLink={curriculum}
             />
-            <ParagraphImg img={toddler1} />
+            <ParagraphImg img={toddler2} />
             <ParagraphContent
               title={"Preschool"}
               body={
