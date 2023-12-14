@@ -51,7 +51,7 @@ const Form = () => {
               <label>
                 Interested In
                 <select>
-                  <option value="" disabled selected hidden>
+                  <option  disabled hidden>
                     {" "}
                     Please Choose...
                   </option>

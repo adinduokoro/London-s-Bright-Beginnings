@@ -17,7 +17,7 @@ const ParagraphContent = ({
       <h3 className="title-text">{title}</h3>
       <h2 className="body-text">{header}</h2>
       <span className="body-text">{subHeader}</span>
-      <p className="body-text">{body}</p>
+      <div className="body-text">{body}</div>
       {badges ? (
         <>
           {badges.map((badge, index) => {
@@ -47,7 +47,7 @@ const ParagraphContent = ({
           })}
         </ul>
       ) : null}
-      <a href={docLink} target="_blank" without rel="noreferrer">
+      <a href={docLink} target="_blank" rel="noreferrer">
         <p className="body-text">{docName}</p>
       </a>
     </div>
