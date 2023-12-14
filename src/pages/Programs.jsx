@@ -5,6 +5,8 @@ import Header from "../components/paragraphs/header/Header";
 import ParagraphImg from "../components/paragraphs/paragraphImg/ParagraphImg";
 import ParagraphContent from "../components/paragraphs/paragraphContent/ParagraphContent";
 import curriculum from "../assets/documents/londonscurriculum.pdf";
+import toddler1 from "../assets/toddler1.jpg"
+import toddler2 from "../assets/toddler2.jpg"
 
 const Programs = () => {
   return (
@@ -14,7 +16,7 @@ const Programs = () => {
         <div className="programs__container" style={{ margin: "0 1.5rem" }}>
           <Header title={"Programs"} />
           <div className="programs__content section">
-            <ParagraphImg img={""} />
+            <ParagraphImg img={toddler2} />
             <ParagraphContent
               title={"Infants"}
               body={
@@ -31,7 +33,7 @@ const Programs = () => {
               docName={"Sample Toddler Daily Schedule (PDF)"}
               docLink={curriculum}
             />
-            <ParagraphImg img={""} />
+            <ParagraphImg img={toddler1} />
             <ParagraphContent
               title={"Preschool"}
               body={
