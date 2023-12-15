@@ -5,15 +5,15 @@ import emailjs from "@emailjs/browser";
 const Form = () => {
   const form = useRef();
 
-  const sendEmail = async (e) => {
+  async function sendEmail(e) {
     e.preventDefault();
 
     try {
       const result = await emailjs.sendForm(
-        "",
-        "",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        " "
+        process.env.REACT_APP_PUBLIC_KEY
       );
       console.log(result);
     } catch (error) {
@@ -34,12 +34,13 @@ const Form = () => {
               </label>
               <label>
                 Parent's Phone
-                <input type="number" name="Phone" />
+                <input type="number" name="phone" />
               </label>
               <label>
                 Parent's Email
-                <input type="email" name="Email" />
+                <input type="email" name="email" />
               </label>
+
               <label>
                 Child's Name
                 <input type="text" name="cName" />
@@ -50,14 +51,11 @@ const Form = () => {
               </label>
               <label>
                 Interested In
-                <select>
-                  <option  disabled hidden>
-                    {" "}
-                    Please Choose...
-                  </option>
-                  <option value="Ford">Ford</option>
-                  <option value="Volvo">Volvo</option>
-                  <option value="Fiat">Fiat</option>
+                <select name="interest" defaultValue="">
+                  <option disabled value=""></option>
+                  <option value="Option 1">Option 1</option>
+                  <option value="Option 2">Option 2</option>
+                  <option value="Option 3">Option 3</option>
                 </select>
               </label>
               <label>
@@ -68,7 +66,7 @@ const Form = () => {
                 Comments
                 <textarea
                   placeholder="Say something"
-                  name="comment"
+                  name="message"
                   rows={8}
                   cols={40}
                 />
