@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./form.css";
 import emailjs from "@emailjs/browser";
+import { toast } from 'react-toastify';
 
 const Form = () => {
   const form = useRef();
@@ -35,10 +36,12 @@ const Form = () => {
         process.env.REACT_APP_PUBLIC_KEY
       );
       initialState();
+      toast.success("Message Sent")
       console.log(form.current);
     } catch (error) {
       initialState();
       console.log("not working");
+      toast.error(error)
     }
   }
 
