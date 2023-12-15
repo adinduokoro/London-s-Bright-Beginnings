@@ -8,7 +8,6 @@ const HeaderBottom = () => {
 
   const toggleMenu = () => {
     setToggle(!toggle)
-    console.log(toggle)
   }
 
   const closeMenu = () => {

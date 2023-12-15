@@ -27,7 +27,6 @@ const Form = () => {
 
   async function sendEmail(e) {
     e.preventDefault();
-
     try {
       const result = await emailjs.sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -83,7 +82,6 @@ const Form = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </label>
-
               <label>
                 Child's Name
                 <input
