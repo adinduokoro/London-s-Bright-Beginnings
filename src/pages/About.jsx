@@ -31,8 +31,10 @@ const About = () => {
             />
             <ParagraphContent 
               title={"Our Philosphy"}
-              body={
-                "At our center, we think a kid's day should be all about love, exploring, and learning. Our mix of care and education is key for their growth. Each child deserves a teacher who's all in, bringing passion and dedication. When teachers love what they do, it sets a heartwarming vibe. We grasp the intricacies of development, involving a blend of biological elements and the surrounding environment. Our kids learn best through connections, be it relationships, interactions, or cool experiences. Good communication with teachers and parents is a must for a supportive vibe. Our teachers guide kids through milestones, boosting motivation with a sense of belonging. Lessons link their school days to home and community life. Teamwork with staff and families is the heart of what we do. Together, we're on the same page, working hard for every child's growth and success."
+              body={<p>
+
+                At our center, we think a kid's day should be all about love, exploring, and learning. Our mix of care and education is key for their growth. Each child deserves a teacher who's all in, bringing passion and dedication. When teachers love what they do, it sets a heartwarming vibe. We grasp the intricacies of development, involving a blend of biological elements and the surrounding environment. Our kids learn best through connections, be it relationships, interactions, or cool experiences. Good communication with teachers and parents is a must for a supportive vibe. Our teachers guide kids through milestones, boosting motivation with a sense of belonging. Lessons link their school days to home and community life. Teamwork with staff and families is the heart of what we do. Together, we're on the same page, working hard for every child's growth and success.
+              </p>
               }
             />
           </div>
