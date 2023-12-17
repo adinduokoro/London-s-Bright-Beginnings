@@ -17,7 +17,7 @@ function App() {
   })
   
   return (
-    <div className="App" style={{overflow: "hidden"}}>
+    <div className="App">
       <BrowserRouter>
       <ScrollToTop />
         <Routes>

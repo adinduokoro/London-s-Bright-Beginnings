@@ -68,6 +68,10 @@ body {
   min-width: 375px !important;
 }
 
+.App{
+  overflow: hidden;
+}
+
 .d-text {
   font-size: var(--display-font-size);
   font-weight: var(--font-normal);
