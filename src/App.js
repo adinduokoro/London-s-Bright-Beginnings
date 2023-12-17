@@ -8,10 +8,16 @@ import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Layout from "./layout/Layout.jsx";
 import ScrollToTop from "./helpers/ScrollToTop.jsx";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
+  useEffect(() => {
+    Aos.init()
+  })
+  
   return (
-    <div className="App">
+    <div className="App" style={{overflow: "hidden"}}>
       <BrowserRouter>
       <ScrollToTop />
         <Routes>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
+import Aos from "aos";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -21,7 +22,7 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div className="hero__slider">
+    <div className="hero__slider" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
       {slides.map((slide, index) => {
         return (
           <div

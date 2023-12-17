@@ -9,7 +9,7 @@ const Programs = () => {
       <div className="program">
         {programs.map((program, index) => {
           return (
-            <div className="programs__cardContainer" key={index}>
+            <div data-aos="zoom-in-up" data-aos-duration="1750" className="programs__cardContainer" key={index}>
               <div className="programs__card">
                 <div className="programs__cardHeader">
                   <span className="title-text">Programs for</span>

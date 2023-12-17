@@ -23,7 +23,7 @@ const Testimonials = () => {
       style={{ backgroundImage: `url(${chalkboard})` }}
     >
       <div className="section">
-        <div className="testimonials">
+        <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="500" className="testimonials">
           <img className="testimonials__family" src={familyPhoto} alt="" />
           <img className="testimonials__cap" src={graduationCap} alt="" />
           <div className="testimonials__cards">

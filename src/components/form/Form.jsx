@@ -114,10 +114,10 @@ const Form = () => {
                   onChange={(e) => setInterest(e.target.value)}
                 >
                   <option disabled value=""></option>
-                  <option value="Option 1">Infant</option>
-                  <option value="Option 2">Toddler</option>
-                  <option value="Option 3">Preschool</option>
-                  <option value="Option 3">School Age</option>
+                  <option value="infant">Infant</option>
+                  <option value="toddler">Toddler</option>
+                  <option value="preschool">Preschool</option>
+                  <option value="school age">School Age</option>
                 </select>
               </label>
               <label>

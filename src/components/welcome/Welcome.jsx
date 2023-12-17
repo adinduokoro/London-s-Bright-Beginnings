@@ -12,7 +12,7 @@ const Welcome = () => {
   return (
     <div className="section">
       <div className="welcome">
-        <div className="welcome__left">
+        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" className="welcome__left">
           <div className="welcome__leftTop">
             <h1 className="welcome__businessName head-text">
               <span>London's</span>
@@ -28,7 +28,7 @@ const Welcome = () => {
               <img src={star3} alt="" />
             </div>
           </div>
-          <div className="welcome__leftBottom">
+          <div  className="welcome__leftBottom">
             <div className="welcome__leftBottomLeft">
               <img src={bookmark} alt="" />
               <span className="welcome__message title-text">
@@ -46,7 +46,7 @@ const Welcome = () => {
             </div>
           </div>
         </div>
-        <div className="welcome__right">
+        <div data-aos="fade-left" data-aos-duration="1700" data-aos-delay="300" className="welcome__right">
             <h1 className="welcome__title head-text">WELCOME</h1>
             <p className="welcome__text body-text">
               Discover London's Bright Beginnings, your trusted childcare choice
