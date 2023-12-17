@@ -111,19 +111,11 @@ const Form = () => {
                   required
                   onChange={(e) => setInterest(e.target.value)}
                 >
-<<<<<<< Updated upstream
                   <option disabled value=""></option>
                   <option value="infant">Infant</option>
                   <option value="toddler">Toddler</option>
                   <option value="preschool">Preschool</option>
                   <option value="school age">School Age</option>
-=======
-                  <option disabled></option>
-                  <option value="Option 1">Infant</option>
-                  <option value="Option 2">Toddler</option>
-                  <option value="Option 3">Preschool</option>
-                  <option value="Option 3">School Age</option>
->>>>>>> Stashed changes
                 </select>
               </label>
               <label>

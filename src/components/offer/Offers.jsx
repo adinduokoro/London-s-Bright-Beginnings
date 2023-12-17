@@ -25,7 +25,7 @@ const Offers = () => {
   };
 
   return (
-    <div className="section">
+    <div className="section" style={{overflow: "hidden"}}>
       <div data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="250" className="cards">
         {offers.map((offer, index) => {
           return (

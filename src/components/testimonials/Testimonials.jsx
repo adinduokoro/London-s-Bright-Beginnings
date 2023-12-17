@@ -22,7 +22,7 @@ const Testimonials = () => {
       className="section__full"
       style={{ backgroundImage: `url(${chalkboard})` }}
     >
-      <div className="section">
+      <div className="section" style={{overflow: "hidden"}}>
         <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="500" className="testimonials">
           <img className="testimonials__family" src={familyPhoto} alt="" />
           <img className="testimonials__cap" src={graduationCap} alt="" />
