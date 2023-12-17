@@ -37,10 +37,8 @@ const Form = () => {
       );
       initialState();
       toast.success("Message Sent")
-      console.log(form.current);
     } catch (error) {
       initialState();
-      console.log("not working");
       toast.error(error)
     }
   }
@@ -57,7 +55,7 @@ const Form = () => {
                 <input
                   type="text"
                   name="pName"
-                  maxLength={21}
+                  maxLength={100}
                   required
                   value={pName}
                   onChange={(e) => setPName(e.target.value)}
@@ -68,7 +66,7 @@ const Form = () => {
                 <input
                   type="number"
                   name="phone"
-                  maxLength={21}
+                  maxLength={100}
                   required
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
@@ -79,7 +77,7 @@ const Form = () => {
                 <input
                   type="email"
                   name="email"
-                  maxLength={21}
+                  maxLength={100}
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -90,7 +88,7 @@ const Form = () => {
                 <input
                   type="text"
                   name="cName"
-                  maxLength={21}
+                  maxLength={100}
                   value={cName}
                   onChange={(e) => setCName(e.target.value)}
                 />
@@ -113,11 +111,19 @@ const Form = () => {
                   required
                   onChange={(e) => setInterest(e.target.value)}
                 >
+<<<<<<< Updated upstream
                   <option disabled value=""></option>
                   <option value="infant">Infant</option>
                   <option value="toddler">Toddler</option>
                   <option value="preschool">Preschool</option>
                   <option value="school age">School Age</option>
+=======
+                  <option disabled></option>
+                  <option value="Option 1">Infant</option>
+                  <option value="Option 2">Toddler</option>
+                  <option value="Option 3">Preschool</option>
+                  <option value="Option 3">School Age</option>
+>>>>>>> Stashed changes
                 </select>
               </label>
               <label>
