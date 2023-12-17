@@ -10,6 +10,7 @@ import Layout from "./layout/Layout.jsx";
 import ScrollToTop from "./helpers/ScrollToTop.jsx";
 import { useEffect } from "react";
 import Aos from "aos";
+import Career from "./pages/Career.jsx";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
             <Route path="programs" element={<Programs />} />
             <Route path="curriculum" element={<Curriculum />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="career" element={<Career />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

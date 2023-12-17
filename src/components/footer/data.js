@@ -19,6 +19,10 @@ export const footerData = [
     name: "Contact",
     path: "contact",
   },
+  {
+    name: "Career",
+    path: "career",
+  },
 ]
 
 export const footerContact = [
