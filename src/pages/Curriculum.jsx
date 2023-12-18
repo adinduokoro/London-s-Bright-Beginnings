@@ -8,7 +8,7 @@ import curriculum from "../assets/documents/londonscurriculum.pdf"
 
 const Curriculum = () => {
   return (
-    <div className='curriculum'>
+    <div className='curriculum__page'>
       <Banner bannerImg={curriculumBanner} />
       <div className="content" style={{ marginBottom: "3.12rem" }}>
         <div className="curriculum__container" style={{ margin: "0 1.5rem" }}>

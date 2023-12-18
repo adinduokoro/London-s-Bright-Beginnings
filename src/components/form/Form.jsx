@@ -11,7 +11,6 @@ const Form = () => {
   const [cName, setCName] = useState("");
   const [birthDate, setBirthDate] = useState("");
   const [interest, setInterest] = useState("");
-
   const [startDate, setStartDate] = useState("");
   const [message, setMessage] = useState("");
 
