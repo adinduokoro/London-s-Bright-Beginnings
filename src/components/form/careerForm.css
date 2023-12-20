@@ -1,0 +1,97 @@
+.careerForm__content form {
+  display: flex;
+  font-family: var(--sub-font);
+  width: 100%;
+  gap: 2rem;
+}
+
+.careerForm__content .columnOne,
+.careerForm__content .columnTwo{
+  flex: 1;
+}
+
+.careerForm__content input[type="text"],
+.careerForm__content input[type="email"],
+.careerForm__content input[type="phone"],
+.careerForm__content input[type="text"],
+.careerForm__content select{
+  height: 2.1875rem;
+  border: 1px solid #858585;
+  padding: 0 0.3125rem;
+  font-family: var(--sub-font);
+  max-width: 25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+}
+
+.careerForm__content .radioButton input,
+.careerForm__content .radioButton label{
+  display: inline;
+  
+}
+
+.careerForm__content .radioButton input{
+  margin: .5rem;
+}
+
+.careerForm__content .setOne{
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+/* 
+
+
+
+
+
+
+.careerForm__content .radioOption{
+  display: flex;
+  flex-direction: row;
+}
+
+.careerForm__content .radioOption input{
+  margin-top: 15px;
+  width: 5%;
+}
+
+.careerForm__content .radioOption label{
+  width: 100%;
+  padding: 12px;
+} */
+
+/* .careerForm__content .radioButton{
+  display: flex;
+}
+
+.careerForm__content .radioButton .radioOption{
+  display: flex;
+  align-items: center ;
+}
+
+.careerForm__content .radioButton .radioOption label{
+  
+}
+
+.careerForm__content .setOne{
+display: flex;
+flex-direction: column;
+
+}
+
+.careerForm__content .radioButton .setTwo{
+} */
+
+
+
+
+
+
+
+
+
