@@ -49,19 +49,18 @@ const CareerForm = () => {
     e.preventDefault();
 
     try {
-      const result = await emailjs
-        .sendForm
-        // process.env.REACT_APP_SERVICE_IDRESUME,
-        // process.env.REACT_APP_TEMPLATE_IDRESUME,
-        // form.current,
-        // process.env.REACT_APP_PUBLIC_KEY
-        ();
+      const result = await emailjs.sendForm(
+        process.env.REACT_APP_SERVICE_IDRESUME,
+        process.env.REACT_APP_TEMPLATE_IDRESUME,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      );
       initialState();
       toast.success("Message Sent");
     } catch (error) {
       initialState();
       toast.error(error);
-      console.log(currentAvailability, currentlyWorking)
+      console.log(currentAvailability, currentlyWorking);
     }
   }
 
@@ -195,7 +194,7 @@ const CareerForm = () => {
                 Current Availability:
                 <div className="radioOption">
                   <div className="radioButton">
-                  <input
+                    <input
                       type="radio"
                       name="currentAvailability"
                       value="Full Time"
@@ -205,7 +204,7 @@ const CareerForm = () => {
                     <label for="fullTimeOption">Full Time</label>
                   </div>
                   <div className="radioButton">
-                  <input
+                    <input
                       type="radio"
                       name="currentAvailability"
                       value="School Year Only"
@@ -215,7 +214,7 @@ const CareerForm = () => {
                     <label for="schoolYearOnlyOption">School Year Only</label>
                   </div>
                   <div className="radioButton">
-                  <input
+                    <input
                       type="radio"
                       name="currentAvailability"
                       value="Substitute"
@@ -235,36 +234,34 @@ const CareerForm = () => {
                     <label for="partTimeOption">Part Time</label>
                   </div>
                   <div className="radioButton">
-                    <div className="radioOption">
-                      <input
-                        type="radio"
-                        name="currentAvailability"
-                        value="Summer Only"
-                        checked={currentAvailability === "Summer Only"}
-                        onChange={(e) => setCurrentAvailability(e.target.value)}
-                      />
-                      <label for="summerOnlyOption">Summer Only</label>
-                    </div>
+                    <input
+                      type="radio"
+                      name="currentAvailability"
+                      value="Summer Only"
+                      checked={currentAvailability === "Summer Only"}
+                      onChange={(e) => setCurrentAvailability(e.target.value)}
+                    />
+                    <label for="summerOnlyOption">Summer Only</label>
                   </div>
                 </div>
               </label>
               <label>
                 Are you currently working in child care?
-                <div className="radioButton setOne">
-                  <div className="radioOption">
+                <div className="radioOption setOne">
+                  <div className="radioButton">
                     <input
-                      name="currentlyWorking"
                       type="radio"
+                      name="currentlyWorking"
                       value="NO"
                       checked={currentlyWorking === "NO"}
                       onChange={(e) => setCurrentlyWorking(e.target.value)}
                     />
                     <label for="noOption">No</label>
                   </div>
-                  <div className="radioOption">
+                  <div className="radioButton">
                     <input
-                      name="currentlyWorking"
                       type="radio"
+                      name="currentlyWorking"
                       value="YES"
                       checked={currentlyWorking === "YES"}
                       onChange={(e) => setCurrentlyWorking(e.target.value)}
