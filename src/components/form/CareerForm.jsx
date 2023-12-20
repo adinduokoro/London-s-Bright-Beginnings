@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 
 const CareerForm = () => {
   const form = useRef();
+  const fileInput = useRef();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -22,7 +23,6 @@ const CareerForm = () => {
   const [occupation, setOccupation] = useState("");
   const [education, setEducation] = useState("");
   const [message, setMessage] = useState("");
-  // const [file, setFile] = useState(null)
 
   const initialState = () => {
     setFirstName("");
@@ -42,7 +42,7 @@ const CareerForm = () => {
     setOccupation("");
     setEducation("");
     setMessage("");
-    // setFile("")
+    fileInput.current.value = null;
   };
 
   async function sendResume(e) {
@@ -60,7 +60,6 @@ const CareerForm = () => {
     } catch (error) {
       initialState();
       toast.error(error);
-      console.log(currentAvailability, currentlyWorking);
     }
   }
 
@@ -68,7 +67,7 @@ const CareerForm = () => {
     <div className="section">
       <div className="careerForm">
         <div className="careerForm__content">
-          <form className="body-text" ref={form} onSubmit={sendResume}>
+          <form className="body-text" enctype="multipart/form-data" method="post" ref={form} onSubmit={sendResume}>
             <div className="columnOne">
               <label>
                 First Name: *
@@ -316,9 +315,8 @@ const CareerForm = () => {
                 format
                 <input
                   type="file"
-                  name="resume"
-                  // value={file}
-                  // onChange={(e) => setFile(e.target.value)}
+                  name="my_file"
+                  ref={fileInput} // Assign the ref to the file input
                 />
               </label>
               <button type="submit">Submit</button>
