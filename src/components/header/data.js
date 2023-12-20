@@ -21,8 +21,11 @@ export const navLinks = [
     path: "/curriculum"
   },
   {
+    name: "CAREER",
+    path: "/career"
+  },
+  {
     name: "CONTACT",
     path: "/contact"
   },
-
 ];

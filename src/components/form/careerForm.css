@@ -1,8 +1,8 @@
 .careerForm__content form {
   display: flex;
   font-family: var(--sub-font);
-  width: 100%;
   gap: 2rem;
+  width: 100%;
 }
 
 .careerForm__content .columnOne,
@@ -19,16 +19,17 @@
   border: 1px solid #858585;
   padding: 0 0.3125rem;
   font-family: var(--sub-font);
-  max-width: 25rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0.3125rem;
   background-color: #fff;
+  width: 100%;
 }
 
 .careerForm__content .radioButton input,
 .careerForm__content .radioButton label{
   display: inline;
+
   
 }
 
@@ -41,57 +42,26 @@
   gap: 2rem;
 }
 
-
-
-/* 
-
-
-
-
-
-
-.careerForm__content .radioOption{
-  display: flex;
-  flex-direction: row;
+.careerForm__content textarea{
+  border-radius: 0.3125rem;
+  border: 1px solid #858585;
+  padding: 0.3125rem;
+  font-family: var(--sub-font);
+  resize: none;
 }
 
-.careerForm__content .radioOption input{
-  margin-top: 15px;
-  width: 5%;
-}
-
-.careerForm__content .radioOption label{
+.careerForm__content button{
+  height: 2.1875rem;
+  cursor: pointer;
   width: 100%;
-  padding: 12px;
-} */
-
-/* .careerForm__content .radioButton{
-  display: flex;
 }
 
-.careerForm__content .radioButton .radioOption{
-  display: flex;
-  align-items: center ;
+
+@media screen and (max-width: 767px){
+  .careerForm__content form {
+    flex-direction: column;
+    font-family: var(--sub-font);
+    width: 100%;
+    gap: .5rem;
+  }
 }
-
-.careerForm__content .radioButton .radioOption label{
-  
-}
-
-.careerForm__content .setOne{
-display: flex;
-flex-direction: column;
-
-}
-
-.careerForm__content .radioButton .setTwo{
-} */
-
-
-
-
-
-
-
-
-

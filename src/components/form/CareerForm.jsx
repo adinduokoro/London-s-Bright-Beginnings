@@ -296,15 +296,28 @@ const CareerForm = () => {
               <label>
                 Tell Us More About Yourself(Examples: Any other certificates or
                 qualifications? Industry related skills?)
-                <input
-                  type="text"
+                <textarea
+                  placeholder="Say something"
                   name="message"
-                  maxLength={21}
+                  rows={7}
+                  maxLength={500}
                   required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </label>
+              <label>
+              Please attach your resume / cover letter file in .pdf,.doc,.docx format
+                <input
+                  type="text"
+                  name="tenure"
+                  maxLength={21}
+                  required
+                  value={tenure}
+                  onChange={(e) => setTenure(e.target.value)}
+                />
+              </label>
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
