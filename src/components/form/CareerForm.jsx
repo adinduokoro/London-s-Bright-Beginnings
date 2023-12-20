@@ -304,7 +304,7 @@ const CareerForm = () => {
                 qualifications? Industry related skills?)
                 <textarea
                   name="message"
-                  rows={7}
+                  rows={6}
                   maxLength={500}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
