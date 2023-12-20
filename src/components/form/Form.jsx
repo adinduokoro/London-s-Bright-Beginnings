@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./form.css";
 import emailjs from "@emailjs/browser";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 const Form = () => {
   const form = useRef();
@@ -35,10 +35,10 @@ const Form = () => {
         process.env.REACT_APP_PUBLIC_KEY
       );
       initialState();
-      toast.success("Message Sent")
+      toast.success("Message Sent");
     } catch (error) {
       initialState();
-      toast.error(error)
+      toast.error(error);
     }
   }
 
@@ -55,7 +55,7 @@ const Form = () => {
                   type="text"
                   name="pName"
                   maxLength={100}
-                  required
+                  // required
                   value={pName}
                   onChange={(e) => setPName(e.target.value)}
                 />
@@ -66,7 +66,7 @@ const Form = () => {
                   type="number"
                   name="phone"
                   maxLength={100}
-                  required
+                  // required
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -77,7 +77,7 @@ const Form = () => {
                   type="email"
                   name="email"
                   maxLength={100}
-                  required
+                  // required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -97,7 +97,7 @@ const Form = () => {
                 <input
                   type="date"
                   name="birthDate"
-                  required
+                  // required
                   value={birthDate}
                   onChange={(e) => setBirthDate(e.target.value)}
                 />
@@ -107,7 +107,7 @@ const Form = () => {
                 <select
                   name="interest"
                   value={interest}
-                  required
+                  // required
                   onChange={(e) => setInterest(e.target.value)}
                 >
                   <option disabled value=""></option>
@@ -123,7 +123,7 @@ const Form = () => {
                   type="text"
                   name="startDate"
                   maxLength={21}
-                  required
+                  // required
                   value={startDate}
                   onChange={(e) => setStartDate(e.target.value)}
                 />
@@ -136,7 +136,7 @@ const Form = () => {
                   rows={8}
                   cols={40}
                   maxLength={200}
-                  required
+                  // required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />

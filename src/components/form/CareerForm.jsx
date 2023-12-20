@@ -9,7 +9,7 @@ const CareerForm = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [phoneType, setPhoneType] = useState();
+  const [phoneType, setPhoneType] = useState("");
   const [altPhone, setAltPhone] = useState("");
   const [addressOne, setAddressOne] = useState("");
   const [addressTwo, setAddressTwo] = useState("");
@@ -22,19 +22,40 @@ const CareerForm = () => {
   const [occupation, setOccupation] = useState("");
   const [education, setEducation] = useState("");
   const [message, setMessage] = useState("");
+  // const [file, setFile] = useState(null)
 
-  const initialState = () => {};
+  const initialState = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPhoneNumber("");
+    setPhoneType("");
+    setAltPhone("");
+    setAddressOne("");
+    setAddressTwo("");
+    setCity("");
+    setState("");
+    setZipcode("");
+    setCurrentAvailability("");
+    setCurrentlyWorking("");
+    setTenure("");
+    setOccupation("");
+    setEducation("");
+    setMessage("");
+    // setFile("")
+  };
 
   async function sendResume(e) {
     e.preventDefault();
 
     try {
-      const result = await emailjs.sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_PUBLIC_KEY
-      );
+      const result = await emailjs
+        .sendForm
+        // process.env.REACT_APP_SERVICE_IDRESUME,
+        // process.env.REACT_APP_TEMPLATE_IDRESUME,
+        // form.current,
+        // process.env.REACT_APP_PUBLIC_KEY
+        ();
       initialState();
       toast.success("Message Sent");
     } catch (error) {
@@ -47,15 +68,15 @@ const CareerForm = () => {
     <div className="section">
       <div className="careerForm">
         <div className="careerForm__content">
-          <form className="body-text" onSubmit={sendResume}>
+          <form className="body-text" ref={form} onSubmit={sendResume}>
             <div className="columnOne">
               <label>
                 First Name: *
                 <input
                   type="text"
                   name="firstName"
-                  maxLength={100}
-                  required
+                  maxLength={50}
+                  // required
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                 />
@@ -65,8 +86,8 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="lastName"
-                  maxLength={100}
-                  required
+                  maxLength={50}
+                  // required
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                 />
@@ -76,8 +97,8 @@ const CareerForm = () => {
                 <input
                   type="email"
                   name="email"
-                  maxLength={100}
-                  required
+                  maxLength={50}
+                  // required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -87,8 +108,7 @@ const CareerForm = () => {
                 <input
                   type="phone"
                   name="phoneNumber"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                 />
@@ -98,10 +118,10 @@ const CareerForm = () => {
                 <select
                   name="phoneType"
                   value={phoneType}
-                  required
                   onChange={(e) => setPhoneType(e.target.value)}
+                  style={{ maxWidth: "31.5rem" }}
                 >
-                  <option disabled value selected></option>
+                  <option disabled value="" selected></option>
                   <option value="Home">Home</option>
                   <option value="Office">Office</option>
                   <option value="Mobile">Mobile</option>
@@ -112,8 +132,7 @@ const CareerForm = () => {
                 <input
                   type="phone"
                   name="altPhone"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={altPhone}
                   onChange={(e) => setAltPhone(e.target.value)}
                 />
@@ -123,8 +142,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="addressOne"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={addressOne}
                   onChange={(e) => setAddressOne(e.target.value)}
                 />
@@ -134,8 +152,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="addressTwo"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={addressTwo}
                   onChange={(e) => setAddressTwo(e.target.value)}
                 />
@@ -145,8 +162,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="city"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
                 />
@@ -156,8 +172,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="state"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={state}
                   onChange={(e) => setState(e.target.value)}
                 />
@@ -167,8 +182,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="zipcode"
-                  maxLength={100}
-                  required
+                  maxLength={20}
                   value={zipcode}
                   onChange={(e) => setZipcode(e.target.value)}
                 />
@@ -265,8 +279,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="tenure"
-                  maxLength={21}
-                  required
+                  maxLength={20}
                   value={tenure}
                   onChange={(e) => setTenure(e.target.value)}
                 />
@@ -276,8 +289,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="occupation"
-                  maxLength={21}
-                  required
+                  maxLength={20}
                   value={occupation}
                   onChange={(e) => setOccupation(e.target.value)}
                 />
@@ -287,8 +299,7 @@ const CareerForm = () => {
                 <input
                   type="text"
                   name="education"
-                  maxLength={21}
-                  required
+                  maxLength={20}
                   value={education}
                   onChange={(e) => setEducation(e.target.value)}
                 />
@@ -297,24 +308,21 @@ const CareerForm = () => {
                 Tell Us More About Yourself(Examples: Any other certificates or
                 qualifications? Industry related skills?)
                 <textarea
-                  placeholder="Say something"
                   name="message"
                   rows={7}
                   maxLength={500}
-                  required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </label>
               <label>
-              Please attach your resume / cover letter file in .pdf,.doc,.docx format
+                Please attach your resume / cover letter file in .pdf,.doc,.docx
+                format
                 <input
-                  type="text"
-                  name="tenure"
-                  maxLength={21}
-                  required
-                  value={tenure}
-                  onChange={(e) => setTenure(e.target.value)}
+                  type="file"
+                  name="resume"
+                  // value={file}
+                  // onChange={(e) => setFile(e.target.value)}
                 />
               </label>
               <button type="submit">Submit</button>
@@ -327,17 +335,3 @@ const CareerForm = () => {
 };
 
 export default CareerForm;
-
-{
-  /* <div className="column2">
-    
-
-    
-    {/* File Upload */
-}
-{
-  /* Button */
-}
-{
-  /* </div> */
-}

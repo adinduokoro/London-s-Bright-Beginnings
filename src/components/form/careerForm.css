@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 668px){
   .careerForm__content form {
     flex-direction: column;
     font-family: var(--sub-font);
