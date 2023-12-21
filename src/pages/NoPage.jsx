@@ -1,8 +1,12 @@
 import React from 'react'
+import Page404 from '../components/page404/Page404'
 
 const NoPage = () => {
   return (
-    <div>NoPage</div>
+    <div style={{marginTop: "11rem"}}>
+      <Page404 />
+
+    </div>
   )
 }
 

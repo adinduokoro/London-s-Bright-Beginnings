@@ -1,0 +1,48 @@
+.page404 {
+  height: calc(100vh - 11rem);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.page404__info {
+  transform: translateY(25%);
+  text-align: center;
+}
+
+.page404__info h2 {
+  font-size: 10rem;
+  color: var(--primaryColorPink);
+}
+
+.page404__info h3 {
+  font-weight: var(--font-bold) !important;
+  color: var(--primaryColorBlue);
+}
+
+.page404 p {
+  margin: 1.5rem 0 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .page404__info h2 {
+    font-size: 7rem;
+    color: var(--primaryColorPink);
+  }
+
+  .page404__info {
+    transform: translateY(30%);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page404 {
+    margin-top: -11rem;
+  }
+
+  .page404__info {
+    transform: translateY(20%);
+    text-align: center;
+  }
+}
