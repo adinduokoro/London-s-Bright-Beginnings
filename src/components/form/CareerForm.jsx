@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 
 const CareerForm = () => {
   const form = useRef();
-  const fileInput = useRef();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -42,7 +41,6 @@ const CareerForm = () => {
     setOccupation("");
     setEducation("");
     setMessage("");
-    fileInput.current.value = null;
   };
 
   async function sendResume(e) {
@@ -316,7 +314,6 @@ const CareerForm = () => {
                 <input
                   type="file"
                   name="my_file"
-                  ref={fileInput} // Assign the ref to the file input
                 />
               </label>
               <button type="submit">Submit</button>
