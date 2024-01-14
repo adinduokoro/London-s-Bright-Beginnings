@@ -65,7 +65,7 @@ const CareerForm = () => {
     <div className="section">
       <div className="careerForm">
         <div className="careerForm__content">
-          <form className="body-text" enctype="multipart/form-data" method="post" ref={form} onSubmit={sendResume}>
+          <form className="body-text" encType="multipart/form-data" method="POST" ref={form} onSubmit={sendResume}>
             <div className="columnOne">
               <label>
                 First Name: *
