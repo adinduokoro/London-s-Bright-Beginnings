@@ -7,7 +7,7 @@ import ContactInfo from "../components/contactInfo/ContactInfo";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact__page">
       <Banner bannerImg={contactBanner} />
       <ContactInfo />
       <Location />

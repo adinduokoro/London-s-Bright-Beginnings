@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./form.css";
 import emailjs from "@emailjs/browser";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 const Form = () => {
   const form = useRef();
@@ -11,7 +11,6 @@ const Form = () => {
   const [cName, setCName] = useState("");
   const [birthDate, setBirthDate] = useState("");
   const [interest, setInterest] = useState("");
-
   const [startDate, setStartDate] = useState("");
   const [message, setMessage] = useState("");
 
@@ -36,10 +35,10 @@ const Form = () => {
         process.env.REACT_APP_PUBLIC_KEY
       );
       initialState();
-      toast.success("Message Sent")
+      toast.success("Message Sent");
     } catch (error) {
       initialState();
-      toast.error(error)
+      toast.error(error);
     }
   }
 

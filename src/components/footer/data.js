@@ -16,6 +16,10 @@ export const footerData = [
     path: "curriculum",
   },
   {
+    name: "Career",
+    path: "career",
+  },
+  {
     name: "Contact",
     path: "contact",
   },

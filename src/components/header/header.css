@@ -186,7 +186,7 @@
 
   .header__navItems.active {
     transition: all 0.5s ease;
-    height: 500%;
+    height: 600%;
   }
 
   .header__bottom li {

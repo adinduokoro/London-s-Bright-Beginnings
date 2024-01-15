@@ -42,9 +42,8 @@
 
 .paragraphContent li {
   color: var(--lightText);
-  display: flex;
-  align-items: flex-start;
   padding-bottom: 0.2rem;
+  align-items: center;
 }
 
 .paragraphContent li img {
