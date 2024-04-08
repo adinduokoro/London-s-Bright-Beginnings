@@ -20,6 +20,11 @@
   
 }
 
+.designer__link{
+  color: var(--colorWhite);
+  font-weight: var(--font-bold);
+}
+
 .footer__siteMap {
   display: flex;
   flex-direction: column;

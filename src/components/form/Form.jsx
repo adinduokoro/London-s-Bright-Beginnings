@@ -28,7 +28,7 @@ const Form = () => {
   async function sendEmail(e) {
     e.preventDefault();
     try {
-      const result = await emailjs.sendForm(
+      await emailjs.sendForm(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         form.current,

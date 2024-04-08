@@ -21,7 +21,7 @@ const Footer = () => {
               <img src={WhiteLogo} alt="" />
             </Link>
             <p className="label-text">
-              © {year} London’s Bright Beginnings. Created by Byte Back Digital.
+              © {year} London’s Bright Beginnings. Created by <a className="designer__link" href="https://bytebackdigital.com/" target="_blank">Byte Back Digital</a>.
               All rights reserved.
             </p>
           </div>
