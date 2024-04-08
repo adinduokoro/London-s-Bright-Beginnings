@@ -64,7 +64,7 @@ const Form = () => {
                 Parent's Phone
                 <input
                   type="number"
-                  name="phone"
+                  name="pPhone"
                   maxLength={100}
                   required
                   value={phone}
@@ -75,7 +75,7 @@ const Form = () => {
                 Parent's Email
                 <input
                   type="email"
-                  name="email"
+                  name="pEmail"
                   maxLength={100}
                   required
                   value={email}

@@ -301,7 +301,7 @@ const CareerForm = () => {
                 Tell Us More About Yourself(Examples: Any other certificates or
                 qualifications? Industry related skills?)
                 <textarea
-                  name="message"
+                  name="reply"
                   rows={6}
                   maxLength={500}
                   value={message}
