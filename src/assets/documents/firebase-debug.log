@@ -1,0 +1,34 @@
+[debug] [2024-04-08T04:54:18.322Z] ----------------------------------------------------------------------
+[debug] [2024-04-08T04:54:18.325Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adiokoro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-04-08T04:54:18.326Z] CLI Version:   13.0.2
+[debug] [2024-04-08T04:54:18.326Z] Platform:      win32
+[debug] [2024-04-08T04:54:18.326Z] Node Version:  v20.10.0
+[debug] [2024-04-08T04:54:18.326Z] Time:          Mon Apr 08 2024 00:54:18 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-04-08T04:54:18.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-08T04:54:18.329Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-04-08T04:54:18.438Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-08T04:54:18.438Z] > authorizing via signed-in user (adinduokoro95@gmail.com)
+[debug] [2024-04-08T04:54:18.438Z] [iam] checking project london-s-bright-beginnings for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-04-08T04:54:18.439Z] > refreshing access token with scopes: []
+[debug] [2024-04-08T04:54:18.440Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-08T04:54:18.440Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-08T04:54:18.548Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-04-08T04:54:18.549Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-04-08T04:54:18.566Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-08T04:54:18.566Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-08T04:54:18.576Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/london-s-bright-beginnings:testIamPermissions [none]
+[debug] [2024-04-08T04:54:18.576Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/london-s-bright-beginnings:testIamPermissions x-goog-quota-user=projects/london-s-bright-beginnings
+[debug] [2024-04-08T04:54:18.577Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/london-s-bright-beginnings:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-04-08T04:54:18.748Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/london-s-bright-beginnings:testIamPermissions 200
+[debug] [2024-04-08T04:54:18.748Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/london-s-bright-beginnings:testIamPermissions {}
+[debug] [2024-04-08T04:54:18.749Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project london-s-bright-beginnings:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-04-08T04:54:18.751Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/london-s-bright-beginnings [none]
+[debug] [2024-04-08T04:54:19.055Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/london-s-bright-beginnings 403
+[debug] [2024-04-08T04:54:19.055Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/london-s-bright-beginnings {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-08T04:54:19.056Z] HTTP Error: 403, The caller does not have permission
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
