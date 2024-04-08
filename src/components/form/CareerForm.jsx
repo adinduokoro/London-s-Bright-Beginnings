@@ -48,8 +48,8 @@ const CareerForm = () => {
 
     try {
       const result = await emailjs.sendForm(
-        process.env.REACT_APP_SERVICE_IDRESUME,
-        process.env.REACT_APP_TEMPLATE_IDRESUME,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
         process.env.REACT_APP_PUBLIC_KEY
       );
@@ -301,7 +301,7 @@ const CareerForm = () => {
                 Tell Us More About Yourself(Examples: Any other certificates or
                 qualifications? Industry related skills?)
                 <textarea
-                  name="message"
+                  name="reply"
                   rows={6}
                   maxLength={500}
                   value={message}
