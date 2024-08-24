@@ -27,7 +27,7 @@ const HeaderTop = () => {
           <div className="address">
             <p>
               <Icon id="head-icons" icon="mdi:map-marker" />
-              <a href="">1234 Baltimore St, Baltimore, MD 21236</a>
+              <a href="">Baltimore, MD 21215</a>
             </p>
           </div>
           <div className="email">
