@@ -34,8 +34,6 @@ const Programs = () => {
                   learning and growth.
                 </p>
               }
-              docName={"Sample Infant Daily Schedule (PDF)"}
-              docLink={curriculum}
             />
             <ParagraphContent
               title={"Toddlers"}
@@ -63,8 +61,6 @@ const Programs = () => {
                   trusting and affectionate relationship throughout the process.
                 </p>
               }
-              docName={"Sample Toddler Daily Schedule (PDF)"}
-              docLink={curriculum}
             />
             <ParagraphImg img={toddler2} />
             <ParagraphContent
@@ -95,8 +91,6 @@ const Programs = () => {
                   and confidence crucial for ongoing learning.
                 </p>
               }
-              docName={"Sample Preschool Daily Schedule (PDF)"}
-              docLink={curriculum}
             />
             <ParagraphContent
               title={"School Age"}
