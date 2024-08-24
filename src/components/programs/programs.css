@@ -62,6 +62,11 @@
   text-decoration-line: underline;
 }
 
+.tuitionAndFees p{
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 @media screen and (max-width: 700px) {
   .program {
     display: grid;

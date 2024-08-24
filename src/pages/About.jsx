@@ -26,28 +26,84 @@ const About = () => {
                 "Cultivate confidence, respect, and a lifelong love for learning. ",
                 "Ignite and foster exploration, creativity, and critical thinking. ",
                 "Emphasize the significance of play-based learning",
-                "Collaborate and serve as a valuable resource for parents seeking high-quality childcare."
+                "Collaborate and serve as a valuable resource for parents seeking high-quality childcare.",
               ]}
             />
-            <ParagraphContent 
+            <ParagraphContent
               title={"Our Philosphy"}
-              body={<p>
-
-                At our center, we think a kid's day should be all about love, exploring, and learning. Our mix of care and education is key for their growth. Each child deserves a teacher who's all in, bringing passion and dedication. When teachers love what they do, it sets a heartwarming vibe. We grasp the intricacies of development, involving a blend of biological elements and the surrounding environment. Our kids learn best through connections, be it relationships, interactions, or cool experiences. Good communication with teachers and parents is a must for a supportive vibe. Our teachers guide kids through milestones, boosting motivation with a sense of belonging. Lessons link their school days to home and community life. Teamwork with staff and families is the heart of what we do. Together, we're on the same page, working hard for every child's growth and success.
-              </p>
+              body={
+                <p>
+                  Hello and welcome to London's Bright Beginnings Child Care
+                  Development Center. My name is Amber Washington, and I am
+                  proud to introduce myself as the Director and owner of this
+                  wonderful institution. I am a mother of two amazing children
+                  who have been an integral part of this school's journey,
+                  growing and thriving in the nurturing environment we provide.<br />
+                  <br />
+                  With an Associate's degree in Applied Science, majoring in
+                  Early Childhood Education from Baltimore County Community
+                  College, my career path has been driven by a deep passion for
+                  children. After beginning my work in a childcare center, I
+                  quickly recognized that this was where my heart truly
+                  belonged. Determined to make a meaningful impact, I returned
+                  to school to further my education and gain the knowledge
+                  needed to excel in this field.<br />
+                  <br /> At London's Bright Beginnings,
+                  we believe that finding the right balance in education, care,
+                  and emotional support is crucial for our children's
+                  development. Together with a team of dedicated and creative
+                  educators who share my vision, we are committed to providing a
+                  safe, loving, and academically enriching environment. Our goal
+                  is to positively influence the lives of the families we serve
+                  and build a solid foundation for our children, empowering them
+                  to become successful and positive contributors to our
+                  community.<br />
+                  <br /> We look forward to welcoming you and your child to
+                  our community, where every child's bright beginning starts
+                  here.
+                </p>
               }
             />
           </div>
           <div className="our__director section">
             <ParagraphImg img={directorImg} />
-            <ParagraphContent 
-
+            <ParagraphContent
               header={"Our Director"}
-              subHeader={"Amber Valraie"}
-              body= {
-              <p>
-                Hello and welcome to London's Bright Beginnings. It is with great appreciation that I introduce my staff and myself to you. My name is Amber Valraie and I am the Director at London's Bright Beginnings Child Care Development Center. I am a mother of one wonderful child who has spent many wonderful years growing up here at the school. <br/><br/> I have a Master’s degree from the University of Houston and Bachelor’s degree from the University of Maryland. In May 2005, I decided to leave the corporate workplace in the Healthcare Industry with the aim and passion to make a difference in how we teach and care for our children. After visiting and touring many childcare centers and preschools in the area for our first-born, my husband and I realized that it was extremely difficult to find a school that had the right balance of everything we wanted for our children. I believe that being an educator is not just a job – it is a passion. With a desire to make an impact on the personal and educational successes of our youth, I decided to start my career in Early Childhood Education.<br/><br/> Together with a team of amazing and creative educators, who share in my vision and goal to provide a safe, caring, loving and academic environment and where together we can influence the lives of the families we serve and build a solid foundation for our children that will allow them to be successful and positive contributors in our community"
-              </p>
+              subHeader={"Amber Washington"}
+              body={
+                <p>
+                  Hello and welcome to London's Bright Beginnings Child Care
+                  Development Center. My name is Amber Washington, and I am
+                  proud to introduce myself as the Director and owner of this
+                  wonderful institution. I am a mother of two amazing children
+                  who have been an integral part of this school's journey,
+                  growing and thriving in the nurturing environment we provide.
+                  <br />
+                  <br />
+                  With an Associate's degree in Applied Science, majoring in
+                  Early Childhood Education from Baltimore County Community
+                  College, my career path has been driven by a deep passion for
+                  children. After beginning my work in a childcare center, I
+                  quickly recognized that this was where my heart truly
+                  belonged. Determined to make a meaningful impact, I returned
+                  to school to further my education and gain the knowledge
+                  needed to excel in this field.
+                  <br />
+                  <br />
+                  At London's Bright Beginnings, we believe that finding the
+                  right balance in education, care, and emotional support is
+                  crucial for our children's development. Together with a team
+                  of dedicated and creative educators who share my vision, we
+                  are committed to providing a safe, loving, and academically
+                  enriching environment. Our goal is to positively influence the
+                  lives of the families we serve and build a solid foundation
+                  for our children, empowering them to become successful and
+                  positive contributors to our community.
+                  <br />
+                  <br />
+                  We look forward to welcoming you and your child to our
+                  community, where every child's bright beginning starts here.
+                </p>
               }
             />
           </div>

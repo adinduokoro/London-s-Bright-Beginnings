@@ -45,7 +45,7 @@ const Footer = () => {
               {footerContact.map((info, index) => {
                 return (
                   <div key={index} className="label-text">
-                    <p>{info.street}</p>
+                    {/* <p>{info.street}</p> */}
                     <p>{info.state}</p>
                     <p>{info.tel}</p>
                     <p>{info.email}</p>

@@ -7,6 +7,9 @@ import ParagraphContent from "../components/paragraphs/paragraphContent/Paragrap
 import curriculum from "../assets/documents/londonscurriculum.pdf";
 import toddler1 from "../assets/toddler1.jpg";
 import toddler2 from "../assets/toddler2.jpg";
+import infantAndToddlerSchedule from "../assets/documents/Infant and Toddler.jpg";
+import preschoolandSchoolAge from "../assets/documents/Infant and Toddler.jpg";
+import tuitionAndFees from "../assets/documents/TuitionAndFees.jpg";
 
 const Programs = () => {
   return (
@@ -34,8 +37,6 @@ const Programs = () => {
                   learning and growth.
                 </p>
               }
-              docName={"Sample Infant Daily Schedule (PDF)"}
-              docLink={curriculum}
             />
             <ParagraphContent
               title={"Toddlers"}
@@ -63,8 +64,8 @@ const Programs = () => {
                   trusting and affectionate relationship throughout the process.
                 </p>
               }
-              docName={"Sample Toddler Daily Schedule (PDF)"}
-              docLink={curriculum}
+              docName={"Sample Infant and Toddler Daily Schedule (PDF)"}
+              docLink={infantAndToddlerSchedule}
             />
             <ParagraphImg img={toddler2} />
             <ParagraphContent
@@ -95,8 +96,6 @@ const Programs = () => {
                   and confidence crucial for ongoing learning.
                 </p>
               }
-              docName={"Sample Preschool Daily Schedule (PDF)"}
-              docLink={curriculum}
             />
             <ParagraphContent
               title={"School Age"}
@@ -115,9 +114,14 @@ const Programs = () => {
                   parents.
                 </p>
               }
-              docName={"Sample School Age Daily Schedule (PDF)"}
-              docLink={curriculum}
+              docName={"Sample 2's and PreSchool Age Daily Schedule (PDF)"}
+              docLink={preschoolandSchoolAge}
             />
+            <div className="tuitionAndFees" style={{marginTop: "2rem"}}>
+              <a href={tuitionAndFees} target="_blank" rel="noreferrer">
+                <p>Click for Tuition and Fees </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
