@@ -29,7 +29,7 @@ function App() {
             <Route path="curriculum" element={<Curriculum />} />
             <Route path="contact" element={<Contact />} />
             <Route path="career" element={<Career />} />
-            <Route path="*" element={<NoPage />} />
+            {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
