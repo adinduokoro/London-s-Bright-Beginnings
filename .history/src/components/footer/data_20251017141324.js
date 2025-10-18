@@ -27,8 +27,8 @@ export const footerData = [
 
 export const footerContact = [
   {
-    street: "1413 W Baltimore Street",
-    state: "Baltimore, MD 21223",
+    street: "1234 Baltimore St",
+    state: "Baltimore, MD 21215",
     tel: "(410) 832-6977",
     email: "londonsbblc@gmail.com",
   },

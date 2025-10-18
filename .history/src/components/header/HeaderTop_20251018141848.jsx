@@ -24,9 +24,9 @@ const HeaderTop = () => {
           </span>
         </div>
         <div className="header__mobileInfo">
-              <p>1413 W Baltimore Street</p>
           <div className="address">
             <p>
+              <Icon id="head-icons" icon="mdi:map-marker" />
               <a href="">Baltimore, MD 21215</a>
             </p>
           </div>

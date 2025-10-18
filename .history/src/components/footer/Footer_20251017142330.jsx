@@ -4,8 +4,6 @@ import WhiteLogo from "../../assets/WhiteLogo.svg";
 import { footerData, footerContact } from "./data";
 import { Link } from "react-router-dom";
 import InstagramIcon from "../../assets/InstagramIcon.svg";
-import myFile from "../../assets/documents/emergencyform.pdf"
-
 
 const date = new Date();
 const year = date.getFullYear();
@@ -62,7 +60,8 @@ const Footer = () => {
               {footerContact.map((info, index) => {
                 return (
                   <div key={index} className="label-text">
-                    <p style={{cursor: "pointer"}} onClick={() => window.open(myFile, "_blank")}>Emergency Form</p>
+                    <p>{info.street}</p>
+                    
                   </div>
                 );
               })}

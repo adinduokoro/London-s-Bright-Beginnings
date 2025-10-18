@@ -19,14 +19,14 @@ const HeaderTop = () => {
             love”
           </span>
           <span className="header__contact head-text">
-            <a href="tel:+14108326977">
+            <a href="tel:+14108329390012">
             CALL US: +1 (410) 832-6977</a>
           </span>
         </div>
         <div className="header__mobileInfo">
-              <p>1413 W Baltimore Street</p>
           <div className="address">
             <p>
+              <Icon id="head-icons" icon="mdi:map-marker" />
               <a href="">Baltimore, MD 21215</a>
             </p>
           </div>
@@ -41,7 +41,7 @@ const HeaderTop = () => {
           <div className="phone">
             <p>
               <Icon id="head-icons" icon="mdi:phone" />
-              Call:&nbsp;<a href="tel:+14108326977">+1 (410) 832-6977</a>
+              Call:&nbsp;<a href="tel:+14439390012">(443) 939-0012</a>
             </p>
           </div>
           <div>

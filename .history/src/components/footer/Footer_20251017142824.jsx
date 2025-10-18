@@ -62,7 +62,7 @@ const Footer = () => {
               {footerContact.map((info, index) => {
                 return (
                   <div key={index} className="label-text">
-                    <p style={{cursor: "pointer"}} onClick={() => window.open(myFile, "_blank")}>Emergency Form</p>
+                    <p style={{cursor}} onClick={() => window.open(myFile, "_blank")}>Emergency Form</p>
                   </div>
                 );
               })}

@@ -6,7 +6,7 @@ import ParagraphImg from "../components/paragraphs/paragraphImg/ParagraphImg";
 import Header from "../components/paragraphs/header/Header";
 import aboutUsImg from "../assets/AboutUs.jpg";
 import directorImg from "../assets/director.jpg";
-import logo from "../assets/Logo.svg"
+import logo from "../assets/L"
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
                 "Collaborate and serve as a valuable resource for parents seeking high-quality childcare.",
               ]}
             />
-            {/* <ParagraphContent
+            <ParagraphContent
               title={"Our Philosphy"}
               body={
                 <p>
@@ -64,10 +64,10 @@ const About = () => {
                   here.
                 </p>
               }
-            /> */}
+            />
           </div>
           <div className="our__director section">
-            <ParagraphImg img={logo} />
+            <ParagraphImg img={directorImg} />
             <ParagraphContent
               header={"Our Director"}
               subHeader={"Amber Washington"}

@@ -11,9 +11,9 @@ const ContactInfo = () => {
           <div className="contact__info">
             <p className="contact__name title-text">London's Bright Beginnings</p>
             <p className="contact__name title-text">Child Learning Center</p>
-            <p className="contact__street title-text">1413 W Baltimore Street</p>
-            <p className="contact__postal title-text">Baltimore, MD 21223</p>
-            <h2 className="contact__phone head-text">T: +1 (410) 832-6977</h2>
+            <p className="contact__street title-text">1413t</p>
+            <p className="contact__postal title-text">Baltimore, MD 21215</p>
+            <h2 className="contact__phone head-text">T: +1 (443) 939-0012</h2>
             <p className="contact__hours body-text">
               Hours of operation. Monday-Friday (6:30am-6:30pm)
             </p>

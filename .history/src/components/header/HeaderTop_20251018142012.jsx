@@ -24,8 +24,8 @@ const HeaderTop = () => {
           </span>
         </div>
         <div className="header__mobileInfo">
-              <p>1413 W Baltimore Street</p>
           <div className="address">
+              <p>hu</p>
             <p>
               <a href="">Baltimore, MD 21215</a>
             </p>
