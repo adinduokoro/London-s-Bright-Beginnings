@@ -22,12 +22,7 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div
-      className="hero__slider"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-      data-aos-delay="300"
-    >
+    <div className="hero__slider" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
       {slides.map((slide, index) => {
         return (
           <div
@@ -35,12 +30,7 @@ const Slider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img
-                src={slide.image}
-                className="image"
-                alt="child care"
-                loading={index === 0 ? "eager" : "lazy"}
-              />
+              <img src={slide.image} className="image" alt="child care" />
             )}
           </div>
         );

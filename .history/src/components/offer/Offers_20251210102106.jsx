@@ -4,6 +4,7 @@ import checkmark from "../../assets/Checkmark.svg";
 import { offers } from "./data";
 import { Icon } from "@iconify/react";
 
+
 const Offers = () => {
   const [current, setCurrent] = useState(0);
   const length = offers.length;
@@ -24,13 +25,8 @@ const Offers = () => {
   };
 
   return (
-    <div className="section" style={{ overflow: "hidden" }}>
-      <div
-        data-aos="fade-up-right"
-        data-aos-duration="1000"
-        data-aos-delay="250"
-        className="cards"
-      >
+    <div className="section" style={{overflow: "hidden"}}>
+      <div data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="250" className="cards">
         {offers.map((offer, index) => {
           return (
             <div
@@ -82,9 +78,11 @@ const Offers = () => {
             </div>
           );
         })}
-        <Icon id="left-arrow" icon="ep:arrow-left-bold" onClick={prevSlide} />
-        <Icon id="right-arrow" icon="ep:arrow-right-bold" onClick={nextSlide} />
+      <Icon id="left-arrow" icon="ep:arrow-left-bold" onClick={prevSlide} />
+      <Icon id="right-arrow" icon="ep:arrow-right-bold" onClick={nextSlide} />
+
       </div>
+      
     </div>
   );
 };

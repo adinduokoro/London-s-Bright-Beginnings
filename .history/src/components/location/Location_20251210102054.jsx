@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "./location.css";
+import "./location.css"
 
 const Location = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,21 +43,10 @@ const Location = () => {
               src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Baltimore,%20Maryland+(London's%20Bright%20Beginnings)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               loading="lazy"
             >
-              <a href="https://www.maps.ie/population/">
-                Find Population on Map
-              </a>
+              <a href="https://www.maps.ie/population/">Find Population on Map</a>
             </iframe>
           ) : (
-            <div
-              style={{
-                width: "100%",
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                backgroundColor: "#f0f0f0",
-              }}
-            >
+            <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "#f0f0f0" }}>
               <p>Loading map...</p>
             </div>
           )}

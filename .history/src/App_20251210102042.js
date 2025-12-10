@@ -14,13 +14,13 @@ import Career from "./pages/Career.jsx";
 
 function App() {
   useEffect(() => {
-    Aos.init();
-  }, []);
-
+    Aos.init()
+  }, [])
+  
   return (
     <div className="App">
       <BrowserRouter>
-        <ScrollToTop />
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

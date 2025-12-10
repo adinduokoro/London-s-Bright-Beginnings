@@ -4,20 +4,15 @@ import "./welcome.css";
 import star1 from "../../assets/stars/Star1.png";
 import star2 from "../../assets/stars/Star2.png";
 import star3 from "../../assets/stars/Star3.png";
-import bookmark from "../../assets/Bookmark.svg";
-import { Icon } from "@iconify/react";
+import bookmark from "../../assets/Bookmark.svg"
+import { Icon } from '@iconify/react';
 import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
     <div className="section">
       <div className="welcome">
-        <div
-          data-aos="fade-right"
-          data-aos-duration="2000"
-          data-aos-delay="300"
-          className="welcome__left"
-        >
+        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" className="welcome__left">
           <div className="welcome__leftTop">
             <h1 className="welcome__businessName head-text">
               <span>London's</span>
@@ -33,7 +28,7 @@ const Welcome = () => {
               <img src={star3} alt="" loading="lazy" />
             </div>
           </div>
-          <div className="welcome__leftBottom">
+          <div  className="welcome__leftBottom">
             <div className="welcome__leftBottomLeft">
               <img src={bookmark} alt="" loading="lazy" />
               <span className="welcome__message title-text">
@@ -41,7 +36,7 @@ const Welcome = () => {
               </span>
               <Link to="/about">
                 <div className="director__button">
-                  <Icon icon="mdi:plus" />
+                <Icon icon="mdi:plus"/>
                 </div>
               </Link>
             </div>
@@ -51,22 +46,17 @@ const Welcome = () => {
             </div>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-duration="1700"
-          data-aos-delay="300"
-          className="welcome__right"
-        >
-          <h1 className="welcome__title head-text">WELCOME</h1>
-          <p className="welcome__text body-text">
-            Discover London's Bright Beginnings, your trusted childcare choice
-            in Baltimore, Maryland. We're dedicated to providing personalized
-            educational experiences for children and families, fostering a
-            lifelong love for learning. With experienced teachers and proven
-            strategies, our specialized programs cater to ages 6 weeks to 12
-            years. Join us for a journey where your child's growth is our top
-            priority.
-          </p>
+        <div data-aos="fade-left" data-aos-duration="1700" data-aos-delay="300" className="welcome__right">
+            <h1 className="welcome__title head-text">WELCOME</h1>
+            <p className="welcome__text body-text">
+              Discover London's Bright Beginnings, your trusted childcare choice
+              in Baltimore, Maryland. We're dedicated to providing personalized
+              educational experiences for children and families, fostering a
+              lifelong love for learning. With experienced teachers and proven
+              strategies, our specialized programs cater to ages 6 weeks to 12
+              years. Join us for a journey where your child's growth is our top
+              priority.
+            </p>
         </div>
       </div>
       <hr className="welcome__line" />
